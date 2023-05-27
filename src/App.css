@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+	--green: #00ff01;
+}
+
+html,
+body {
+	font-family: "Ubuntu", sans-serif;
+	background-color: #1a191d;
+	color: white;
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.hero-section {
+	height: 93vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-name {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+.hero-title-description {
+	font-size: 1.5rem;
+	color: #999;
+	font-weight: bold;
+}
+
+.hero-span {
+	color: var(--green);
+}
+
+/* Hamburger Menu Styles */
+
+.hamburger {
+	display: none;
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	cursor: pointer;
+}
+
+.hamburger__icon {
+	transition: all 0.3s ease-in-out;
+}
+
+.hamburger.open .hamburger__icon {
+	transform: rotate(180deg);
+}
+
+/* Navigation Styles */
+
+.nav {
+	width: 90%;
+	margin-top: 2rem;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.nav.open {
+	opacity: 1;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+	padding: 1rem;
+	font-size: 1.2rem;
+}
+
+.nav ul li a:hover {
+	color: var(--green);;
+}
+
+/* Section Styles */
+
+#experience {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	margin-top: 5rem;
+}
+
+.experience-active {
+	margin-top: 5rem;
+}
+
+.languages-experience {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.languages-experience:last-child {
+	margin-bottom: 5rem;
+}
+
+.languages-experience > * {
+	flex: 1 1 4rem;
+}
+
+.languages-experience img {
+	width: 4rem;
+	height: 4rem;
+	margin: 0.5rem;
+	transition: transform 0.3s ease-in-out;
+	background-color: white;
+	padding: 0.5rem;
+	border: 0.1rem solid black;
+	box-shadow: 0 0 0.5rem white;
+	flex-shrink: 0;
+}
+
+.languages-experience img:hover {
+	transform: scale(1.1);
+}
+
+.hidden {
+	display: none;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+	.hero-name {
+		font-size: 5rem;
+	}
+
+	.hero-title-description {
+		font-size: 2rem;
+	}
+	.nav {
+		opacity: 1;
+		transform: translateX(-999%);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.nav ul {
+		flex-direction: column;
+		align-items: flex-end;
+		background-color: #999999;
+		border-radius: 0.5rem;
+	}
+
+	.nav ul li {
+		margin-bottom: 1.5rem;
+		padding-top: 0.5rem;
+	}
+
+	.nav ul li a {
+		color: black;
+		padding: 0.5rem;
+	}
+
+	.nav ul li a:hover {
+		text-decoration: underline;
+		color: black;
+	}
+
+	.nav.open {
+		transform: translateX(0);
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.hamburger__icon {
+		font-size: 2rem;
+		position: relative;
+		top: 0.2rem;
+	}
+}
+
