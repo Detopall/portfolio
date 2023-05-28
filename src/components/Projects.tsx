@@ -10,11 +10,12 @@ function Projects() {
 					jsonProjects.map((project) => {
 						return (
 							<Project
-								key={project.projectName}
-								title={project.projectName}
-								description={project.projectDescription}
-								image={project.projectImg}
-								link={project.linkTo}
+								key={project.id}
+								id={project.id}
+								name={project.name}
+								descriptionShort={project.descriptionShort}
+								imageSrc={project.imageSrc}
+								linkTo={project.linkTo}
 							/>
 						);
 					})

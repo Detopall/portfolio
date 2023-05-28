@@ -1,51 +1,252 @@
 [
 	{
-		"projectName": "Crow Chirp",
-		"projectDescription": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
-		"projectImg": "/assets/images/crow-chirp.png",
+		"name": "Crow Chirp",
+		"id": "crow-chirp",
+		"descriptionShort": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+		"descriptionLong": [
+			"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+			"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
+			"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+				"title": "Node.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+				"title": "Express.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
+				"title": "Handlebars"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+				"title": "MongoDB"
+			}
+		],
+		"imageSrc": "/assets/images/crow-chirp.png",
 		"linkTo": "/projects/crow-chirp"
 	},
 	{
-		"projectName": "Handwriting Digit Recognition",
-		"projectDescription": "This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server.",
-		"projectImg": "/assets/images/handwriting-app.png",
+		"name": "Handwriting Digit Recognition",
+		"id": "handwriting-app",
+		"descriptionShort": "This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server.",
+		"descriptionLong": [
+			"This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset which contains over 70.000 images in total.",
+			"The model creation, training and testing is done on separate github projects. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server. The client can draw an digit and the server will return the prediction of the model.",
+			"This project thought me about how I can use my model in a real world application. The focus of this project wasn't the webpage but the model and how I can use it to receive data from the client (handwritten digit) and send it to the server and send a prediction back to the client."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			}
+		],
+		"imageSrc": "/assets/images/handwriting-app.png",
 		"linkTo": "/projects/handwriting-app"
 	},
-
 	{
-		"projectName": "VideoStreamTube",
-		"projectDescription": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
-		"projectImg": "/assets/images/video-stream-tube.png",
+		"name": "VideoStreamTube",
+		"id": "video-stream-tube",
+		"descriptionShort": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
+		"descriptionLong": [
+			"Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for YouTube videos and watch them. It also has a dark mode feature.",
+			"VideoStreamTube was made using React.",
+			"This project thought me about React and the uses of dynamic routes. It also thought me about how to use an API with best practices in React."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			}
+		],
+		"imageSrc": "/assets/images/video-stream-tube.png",
 		"linkTo": "/projects/video-stream-tube"
 	},
 	{
-		"projectName": "Text Summary App",
-		"projectDescription": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-		"projectImg": "/assets/images/text-summary-app.png",
+		"name": "Text Summary App",
+		"id": "text-summary-app",
+		"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+		"descriptionLong": [
+			"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+			"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
+			"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			}
+		],
+		"imageSrc": "/assets/images/text-summary-app.png",
 		"linkTo": "/projects/text-summary-app"
 	},
 	{
-		"projectName": "Car Rental",
-		"projectDescription": "This website is a prototype for a non-existant car rental company. It has a home, customer stories, vehicle models, about us, team, and contact us page.",
-		"projectImg": "/assets/images/car-rental.png",
+		"name": "Car Rental",
+		"id": "car-rental",
+		"descriptionShort": "This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and a 'contact us' page.",
+		"descriptionLong": [
+			"This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and 'contact us' page.",
+			"This project was made by using React and React Router Dom to redirect users to different pages."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			}
+		],
+		"imageSrc": "/assets/images/car-rental.png",
 		"linkTo": "/projects/car-rental"
 	},
 	{
-		"projectName": "Salus Security",
-		"projectDescription": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
-		"projectImg": "/assets/images/salus-security.png",
+		"name": "Salus Security",
+		"id": "salus-security",
+		"descriptionShort": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
+		"descriptionLong": [
+			"Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
+			"The original school-project used Vue.js, HTML and SCSS on the frontend and Java on the backend with an H2 database. This Salus Security project uses HTML, CSS, JS and Node.js with Express and Express Handlebars on the backend with MongoDB as the database.",
+			"This project was more of a challenge to see if I could reproduce the original project using different technologies. It was a great learning experience and I learned a lot from it."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+				"title": "Node.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+				"title": "Express.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
+				"title": "Handlebars"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+				"title": "MongoDB"
+			}
+		],
+		"imageSrc": "/assets/images/salus-security.png",
 		"linkTo": "/projects/salus-security"
 	},
 	{
-		"projectName": "Coming Soon: Github/Gitlab Issue Board",
-		"projectDescription": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
-		"projectImg": "/assets/images/coming-soon.png",
+		"name": "Coming Soon: Github/Gitlab Issue Board",
+		"id": "issue-board",
+		"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
+		"imageSrc": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/issue-board"
 	},
 	{
-		"projectName": "Coming Soon: Data Science Project",
-		"projectDescription": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
-		"projectImg": "/assets/images/coming-soon.png",
+		"name": "Coming Soon: Data Science Project",
+		"id": "data-science-project",
+		"descriptionShort": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
+		"descriptionLong": [
+			"This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
+			"This project will be done in the future."
+		],
+		"developmentStack": [{ "src": "#", "title": "Coming Soon" }],
+		"imageSrc": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/data-science-project"
 	}
 ]

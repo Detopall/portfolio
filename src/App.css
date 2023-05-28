@@ -217,6 +217,41 @@ h2 {
 	transform: scale(1.1);
 }
 
+/* Single Project Page */
+
+.single-project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+}
+
+.single-project h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.single-project img {
+	width: 300px;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+.single-project-description p {
+	margin-bottom: 0.5rem;
+}
+
+.single-project-dev-images {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.single-project-dev-images img {
+	width: 40px;
+	height: 40px;
+}
+
 /* Responsive Styles */
 
 @media only screen and (max-width: 768px) {

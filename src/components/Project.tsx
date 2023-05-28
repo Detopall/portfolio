@@ -1,23 +1,18 @@
 import { Link } from "react-router-dom";
+import { IProject } from "../App";
 
-interface IProject {
-	title: string;
-	description: string;
-	image: string;
-	link: string;
-}
 
-function Project({ title, description, image, link }: IProject) {
+function Project({ name, descriptionShort, imageSrc, linkTo }: IProject) {
 	return (
 		<>
-			<Link to={link}>
+			<Link to={linkTo}>
 				<div className="project">
 					<div className="project-description">
-						<h3>{title}</h3>
-						<p>{description}</p>
+						<h3>{name}</h3>
+						<p>{descriptionShort}</p>
 					</div>
 					<div className="project-img">
-						<img src={image} alt={title} />
+						<img src={imageSrc} alt={name} />
 					</div>
 				</div>
 			</Link>

@@ -4,6 +4,20 @@ import Nav from "./components/Nav";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import SingleProject from "./components/SingleProject";
+
+export interface IProject {
+	id: string;
+	name: string;
+	descriptionShort: string;
+	descriptionLong?: string[] | [];
+	developmentStack?: {
+		src: string | null,
+		title: string | null
+	}[],
+	imageSrc: string;
+	linkTo: string;
+}
 
 function App() {
 	return (
@@ -14,6 +28,7 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/experience" element={<Experience />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/projects/:projectId" element={<SingleProject />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</div>
