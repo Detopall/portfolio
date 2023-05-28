@@ -156,6 +156,8 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .projects-container:last-child {
@@ -164,17 +166,20 @@ h2 {
 
 .projects-container a {
 	text-decoration: none;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .project {
-	flex-basis: 50%;
 	color: white;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
+	gap: 2rem;
 }
 
 .project:hover {
-	background-color: #999999;
+	background-color: white;
+	color: black;
 }
 
 .project:nth-child(odd) {
@@ -187,28 +192,25 @@ h2 {
 	flex-direction: row;
 }
 
-.project h3 {
-	flex-basis: 50%;
-	align-self: center;
-}
-
 .project-description {
 	flex-basis: 50%;
-	padding: 0 20px;
+	padding: 0 2rem;
 }
 
 .project-img {
 	flex-basis: 50%;
-	text-align: center;
-	height: 10rem;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .project-img img {
-	height: 100%;
-	width: 100%;
 	object-fit: contain;
 	transition: all 0.3s ease-in-out;
-	background-color: white;
+	height: 20rem;
+	width: 20rem;
+	align-items: center;
 }
 
 .project-img img:hover {
@@ -265,5 +267,22 @@ h2 {
 		font-size: 2rem;
 		position: relative;
 		top: 0.2rem;
+	}
+
+	.project {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.project h3,
+	.project-description {
+		flex-basis: 100%;
+		padding: 0;
+	}
+
+	.project-img img {
+		height: 100%;
+		width: 100%;
 	}
 }
