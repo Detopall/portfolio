@@ -2,50 +2,50 @@
 	{
 		"projectName": "Crow Chirp",
 		"projectDescription": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
-		"projectImg": "/src/assets/images/crow-chirp.png",
+		"projectImg": "/assets/images/crow-chirp.png",
 		"linkTo": "/projects/crow-chirp"
 	},
 	{
 		"projectName": "Handwriting Digit Recognition",
 		"projectDescription": "This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server.",
-		"projectImg": "/src/assets/images/handwriting-app.png",
+		"projectImg": "/assets/images/handwriting-app.png",
 		"linkTo": "/projects/handwriting-app"
 	},
 
 	{
 		"projectName": "VideoStreamTube",
 		"projectDescription": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
-		"projectImg": "/src/assets/images/video-stream-tube.png",
+		"projectImg": "/assets/images/video-stream-tube.png",
 		"linkTo": "/projects/video-stream-tube"
 	},
 	{
 		"projectName": "Text Summary App",
 		"projectDescription": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-		"projectImg": "/src/assets/images/text-summary-app.png",
+		"projectImg": "/assets/images/text-summary-app.png",
 		"linkTo": "/projects/text-summary-app"
 	},
 	{
 		"projectName": "Car Rental",
 		"projectDescription": "This website is a prototype for a non-existant car rental company. It has a home, customer stories, vehicle models, about us, team, and contact us page.",
-		"projectImg": "/src/assets/images/car-rental.png",
+		"projectImg": "/assets/images/car-rental.png",
 		"linkTo": "/projects/car-rental"
 	},
 	{
 		"projectName": "Salus Security",
 		"projectDescription": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
-		"projectImg": "/src/assets/images/salus-security.png",
+		"projectImg": "/assets/images/salus-security.png",
 		"linkTo": "/projects/salus-security"
 	},
 	{
 		"projectName": "Coming Soon: Github/Gitlab Issue Board",
 		"projectDescription": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
-		"projectImg": "/src/assets/images/coming-soon.png",
+		"projectImg": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/issue-board"
 	},
 	{
 		"projectName": "Coming Soon: Data Science Project",
 		"projectDescription": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
-		"projectImg": "/src/assets/images/coming-soon.png",
+		"projectImg": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/data-science-project"
 	}
 ]
