@@ -16,6 +16,7 @@ h2 {
 	font-size: 2rem;
 	font-weight: bold;
 	text-decoration: underline;
+	text-align: center;
 }
 
 .hero-section {
@@ -95,7 +96,7 @@ h2 {
 }
 
 .nav ul li a:hover {
-	color: var(--green);;
+	color: var(--green);
 }
 
 /* Section Styles */
@@ -147,6 +148,71 @@ h2 {
 
 .hidden {
 	display: none;
+}
+
+/* Project Styles */
+
+.projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.projects-container:last-child {
+	margin-bottom: 5rem;
+}
+
+.projects-container a {
+	text-decoration: none;
+}
+
+.project {
+	flex-basis: 50%;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.project:hover {
+	background-color: #999999;
+}
+
+.project:nth-child(odd) {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.project:nth-child(even) {
+	display: flex;
+	flex-direction: row;
+}
+
+.project h3 {
+	flex-basis: 50%;
+	align-self: center;
+}
+
+.project-description {
+	flex-basis: 50%;
+	padding: 0 20px;
+}
+
+.project-img {
+	flex-basis: 50%;
+	text-align: center;
+	height: 10rem;
+}
+
+.project-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	transition: all 0.3s ease-in-out;
+	background-color: white;
+}
+
+.project-img img:hover {
+	transform: scale(1.1);
 }
 
 /* Responsive Styles */
@@ -201,4 +267,3 @@ h2 {
 		top: 0.2rem;
 	}
 }
-

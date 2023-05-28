@@ -1,7 +1,7 @@
 [
 	{
 		"projectName": "Crow Chirp",
-		"projectDescription": "This project is a Twitter Clone. It contains key features such as authentication, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+		"projectDescription": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
 		"projectImg": "/src/assets/images/crow-chirp.png",
 		"linkTo": "/projects/crow-chirp"
 	},
@@ -21,7 +21,7 @@
 	{
 		"projectName": "Text Summary App",
 		"projectDescription": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-		"projectImg": "/src/assets/images/text-summary.png",
+		"projectImg": "/src/assets/images/text-summary-app.png",
 		"linkTo": "/projects/text-summary-app"
 	},
 	{
@@ -32,8 +32,20 @@
 	},
 	{
 		"projectName": "Salus Security",
-		"projectDescription": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school. This was a java (server), Vue.js (client), H2 (database) project, but in my spare time I made a beta version of that project.",
+		"projectDescription": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
 		"projectImg": "/src/assets/images/salus-security.png",
 		"linkTo": "/projects/salus-security"
+	},
+	{
+		"projectName": "Coming Soon: Github/Gitlab Issue Board",
+		"projectDescription": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
+		"projectImg": "/src/assets/images/coming-soon.png",
+		"linkTo": "/projects/issue-board"
+	},
+	{
+		"projectName": "Coming Soon: Data Science Project",
+		"projectDescription": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
+		"projectImg": "/src/assets/images/coming-soon.png",
+		"linkTo": "/projects/data-science-project"
 	}
 ]

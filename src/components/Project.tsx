@@ -12,9 +12,8 @@ function Project({ title, description, image, link }: IProject) {
 		<>
 			<Link to={link}>
 				<div className="project">
-					<h3>{title}</h3>
-
 					<div className="project-description">
+						<h3>{title}</h3>
 						<p>{description}</p>
 					</div>
 					<div className="project-img">
