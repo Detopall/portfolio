@@ -234,6 +234,13 @@
 		"name": "Coming Soon: Github/Gitlab Issue Board",
 		"id": "issue-board",
 		"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
+		"descriptionLong": [
+			"This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
+			"This project will be done in the future."
+		],
+		"developmentStack": [
+			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
+		],
 		"imageSrc": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/issue-board"
 	},
@@ -245,7 +252,9 @@
 			"This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
 			"This project will be done in the future."
 		],
-		"developmentStack": [{ "src": "#", "title": "Coming Soon" }],
+		"developmentStack": [
+			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
+		],
 		"imageSrc": "/assets/images/coming-soon.png",
 		"linkTo": "/projects/data-science-project"
 	}
