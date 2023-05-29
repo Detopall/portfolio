@@ -231,11 +231,6 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-.single-project img {
-	width: 25rem;
-	height: auto;
-}
-
 .single-project-main-img {
 	margin-bottom: 2rem;
 }
@@ -259,6 +254,7 @@ h2 {
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 	margin-top: 1rem;
+	flex-flow: wrap row;
 }
 
 .single-project-dev-images img {
@@ -277,7 +273,7 @@ h2 {
 	cursor: pointer;
 }
 
-.single-project-github-container button {
+.single-project-github-container button, .single-project-video .single-project-video-link {
 	background-color: white;
 	color: black;
 	border: 0.1rem solid black;
@@ -287,6 +283,7 @@ h2 {
 	font-weight: bold;
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .single-project-github-container button:hover {
@@ -363,7 +360,7 @@ h2 {
 		width: 100%;
 	}
 
-	.single-project img {
+	.single-project-main-img {
 		width: 90%;
 		height: auto;
 	}

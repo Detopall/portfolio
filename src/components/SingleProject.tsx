@@ -51,6 +51,7 @@ function SingleProject() {
 						href={project.youtubeLink}
 						target="_blank"
 						rel="noopener noreferrer"
+						className="single-project-video-link"
 					>
 						Watch Video
 					</a>
