@@ -17,6 +17,8 @@ export interface IProject {
 	}[],
 	imageSrc: string;
 	linkTo: string;
+	githubLink?: string;
+	youtubeLink?: string;
 }
 
 function App() {

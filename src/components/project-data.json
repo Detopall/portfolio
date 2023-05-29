@@ -43,7 +43,9 @@
 			}
 		],
 		"imageSrc": "/assets/images/crow-chirp.png",
-		"linkTo": "/projects/crow-chirp"
+		"linkTo": "/projects/crow-chirp",
+		"githubLink": "https://github.com/Detopall/twitter-clone",
+		"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
 	},
 	{
 		"name": "Handwriting Digit Recognition",
@@ -83,7 +85,9 @@
 			}
 		],
 		"imageSrc": "/assets/images/handwriting-app.png",
-		"linkTo": "/projects/handwriting-app"
+		"linkTo": "/projects/handwriting-app",
+		"githubLink": "https://github.com/Detopall/DL-handwriting-app",
+		"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 	},
 	{
 		"name": "VideoStreamTube",
@@ -113,7 +117,9 @@
 			}
 		],
 		"imageSrc": "/assets/images/video-stream-tube.png",
-		"linkTo": "/projects/video-stream-tube"
+		"linkTo": "/projects/video-stream-tube",
+		"githubLink": "https://github.com/Detopall/video-stream-tube",
+		"youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
 	},
 	{
 		"name": "Text Summary App",
@@ -153,7 +159,9 @@
 			}
 		],
 		"imageSrc": "/assets/images/text-summary-app.png",
-		"linkTo": "/projects/text-summary-app"
+		"linkTo": "/projects/text-summary-app",
+		"githubLink": "https://github.com/Detopall/DL-text-summary-app",
+		"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 	},
 	{
 		"name": "Car Rental",
@@ -182,16 +190,18 @@
 			}
 		],
 		"imageSrc": "/assets/images/car-rental.png",
-		"linkTo": "/projects/car-rental"
+		"linkTo": "/projects/car-rental",
+		"githubLink": "https://github.com/Detopall/react-car-rental",
+		"youtubeLink": "https://www.youtube.com/embed/UBP8Mo-oRWo"
 	},
 	{
 		"name": "Salus Security",
 		"id": "salus-security",
-		"descriptionShort": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
+		"descriptionShort": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and helping the people in need as bystanders. Salus Security was originally a group project we had to work on during school.",
 		"descriptionLong": [
-			"Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and bystanders helping the people in need. Salus Security was originally a group project we had to work on during school.",
+			"Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and helping the people in need as bystanders. Salus Security was originally a group project we had to work on during school.",
 			"The original school-project used Vue.js, HTML and SCSS on the frontend and Java on the backend with an H2 database. This Salus Security project uses HTML, CSS, JS and Node.js with Express and Express Handlebars on the backend with MongoDB as the database.",
-			"This project was more of a challenge to see if I could reproduce the original project using different technologies. It was a great learning experience and I learned a lot from it."
+			"This project was more of a challenge to see if I could reproduce the original project using different technologies by myself. It was a great learning experience and I learned a lot from it."
 		],
 		"developmentStack": [
 			{
@@ -228,7 +238,9 @@
 			}
 		],
 		"imageSrc": "/assets/images/salus-security.png",
-		"linkTo": "/projects/salus-security"
+		"linkTo": "/projects/salus-security",
+		"githubLink": "https://github.com/Detopall/salus-security",
+		"youtubeLink": "https://www.youtube.com/embed/lTB0XfUWERQ"
 	},
 	{
 		"name": "Coming Soon: Github/Gitlab Issue Board",
@@ -242,7 +254,9 @@
 			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
 		],
 		"imageSrc": "/assets/images/coming-soon.png",
-		"linkTo": "/projects/issue-board"
+		"linkTo": "/projects/issue-board",
+		"githubLink": "https://github.com/Detopall",
+		"youtubeLink": "https://www.youtube.com/embed/D0R2h21JnB0"
 	},
 	{
 		"name": "Coming Soon: Data Science Project",
@@ -256,6 +270,8 @@
 			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
 		],
 		"imageSrc": "/assets/images/coming-soon.png",
-		"linkTo": "/projects/data-science-project"
+		"linkTo": "/projects/data-science-project",
+		"githubLink": "https://github.com/Detopall",
+		"youtubeLink": "https://www.youtube.com/embed/D0R2h21JnB0"
 	}
 ]

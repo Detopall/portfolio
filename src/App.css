@@ -64,7 +64,7 @@ h2 {
 /* Navigation Styles */
 
 .nav {
-	width: 90%;
+	width: 80%;
 	margin-top: 2rem;
 	transition: opacity 0.3s ease-in-out;
 }
@@ -184,7 +184,6 @@ h2 {
 
 .project:nth-child(odd) {
 	display: flex;
-	flex-direction: row-reverse;
 }
 
 .project:nth-child(even) {
@@ -224,6 +223,7 @@ h2 {
 	flex-direction: column;
 	align-items: center;
 	padding: 2rem;
+	margin: 0 10% 5rem 10%;
 }
 
 .single-project h1 {
@@ -232,9 +232,19 @@ h2 {
 }
 
 .single-project img {
-	width: 300px;
+	width: 25rem;
 	height: auto;
-	margin-bottom: 1rem;
+}
+
+.single-project-main-img {
+	margin-bottom: 2rem;
+}
+
+.single-project-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
 }
 
 .single-project-description p {
@@ -245,11 +255,43 @@ h2 {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
+	background-color: white;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
 }
 
 .single-project-dev-images img {
-	width: 40px;
-	height: 40px;
+	width: 4rem;
+	height: 4rem;
+	object-fit: contain;
+	transition: all 0.3s ease-in-out;
+}
+
+.single-project-dev-images img:hover {
+	transform: scale(1.1);
+}
+
+.single-project-github-container {
+	margin: 2rem 0;
+	cursor: pointer;
+}
+
+.single-project-github-container button {
+	background-color: white;
+	color: black;
+	border: 0.1rem solid black;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.single-project-github-container button:hover {
+	background-color: black;
+	color: white;
 }
 
 /* Responsive Styles */
@@ -271,7 +313,7 @@ h2 {
 	.nav ul {
 		flex-direction: column;
 		align-items: flex-end;
-		background-color: #999999;
+		background-color: white;
 		border-radius: 0.5rem;
 	}
 
@@ -319,5 +361,10 @@ h2 {
 	.project-img img {
 		height: 100%;
 		width: 100%;
+	}
+
+	.single-project img {
+		width: 90%;
+		height: auto;
 	}
 }
