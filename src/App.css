@@ -19,6 +19,10 @@ h2 {
 	text-align: center;
 }
 
+h2:not(#experience h2) {
+	margin-top: 5rem;
+}
+
 .hero-section {
 	height: 93vh;
 	display: flex;
@@ -64,9 +68,12 @@ h2 {
 /* Navigation Styles */
 
 .nav {
-	width: 80%;
+	width: 100%;
 	margin-top: 2rem;
 	transition: opacity 0.3s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav.open {
@@ -233,6 +240,7 @@ h2 {
 
 .single-project-main-img {
 	margin-bottom: 2rem;
+	width: 50%;
 }
 
 .single-project-description {
@@ -273,7 +281,8 @@ h2 {
 	cursor: pointer;
 }
 
-.single-project-github-container button, .single-project-video .single-project-video-link {
+.single-project-github-container button,
+.single-project-video .single-project-video-link {
 	background-color: white;
 	color: black;
 	border: 0.1rem solid black;
@@ -289,6 +298,40 @@ h2 {
 .single-project-github-container button:hover {
 	background-color: black;
 	color: white;
+}
+
+/* Contact Styles */
+
+#contact {
+	text-align: center;
+	padding: 50px 0;
+}
+
+#contact h2 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+#contact p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+
+#badges {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#badges a {
+	margin: 10px;
+}
+
+#badges img {
+	width: 150px;
+	height: 50px;
+	object-fit: contain;
 }
 
 /* Responsive Styles */
@@ -331,6 +374,12 @@ h2 {
 
 	.nav.open {
 		transform: translateX(0);
+		width: 80%;
+		margin-left: 0.5rem;
+	}
+
+	.nav.open ul {
+		width: 100%;
 	}
 
 	.hamburger {

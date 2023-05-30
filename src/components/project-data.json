@@ -95,7 +95,6 @@
 		"descriptionShort": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
 		"descriptionLong": [
 			"Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for YouTube videos and watch them. It also has a dark mode feature.",
-			"VideoStreamTube was made using React.",
 			"This project thought me about React and the uses of dynamic routes. It also thought me about how to use an API with best practices in React."
 		],
 		"developmentStack": [
