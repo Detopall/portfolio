@@ -1,64 +1,43 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 function Nav() {
-	const [open, setOpen] = useState(false);
-	const [showNav, setShowNav] = useState(true);
+	const [isOpen, setIsOpen] = useState(false);
 
-	const handleClick = () => {
-		setOpen(false);
+	const toggleNav = () => {
+		setIsOpen(!isOpen);
 	};
-
-	const handleHamburgerClick = () => {
-		setOpen(!open);
-	};
-
-	const handleResize = () => {
-		const isLargeScreen = window.innerWidth > 768; // Set the desired threshold for a large screen
-		setShowNav(isLargeScreen || open);
-	};
-
-	useEffect(() => {
-		window.addEventListener("resize", handleResize);
-		return () => {
-			window.removeEventListener("resize", handleResize);
-		};
-	}, [open]);
-
-	const navClassName = open ? "open" : showNav ? "" : "hidden";
 
 	return (
 		<>
-			<div
-				className={`hamburger ${open ? "open" : ""}`}
-				onClick={handleHamburgerClick}
-			>
+			<div className={`hamburger ${isOpen ? "open" : ""}`}>
 				<FontAwesomeIcon
 					icon={faHamburger}
 					className="hamburger__icon"
+					onClick={toggleNav}
 				/>
 			</div>
-			<nav className={`nav ${navClassName}`}>
+			<nav className={`nav ${isOpen ? "open" : ""}`}>
 				<ul>
 					<li>
-						<Link to="/" onClick={handleClick}>
+						<Link to="/" onClick={toggleNav}>
 							Home
 						</Link>
 					</li>
 					<li>
-						<Link to="/experience" onClick={handleClick}>
+						<Link to="/experience" onClick={toggleNav}>
 							Experience
 						</Link>
 					</li>
 					<li>
-						<Link to="/projects" onClick={handleClick}>
+						<Link to="/projects" onClick={toggleNav}>
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link to="/contact" onClick={handleClick}>
+						<Link to="/contact" onClick={toggleNav}>
 							Contact
 						</Link>
 					</li>

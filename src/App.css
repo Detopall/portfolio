@@ -24,7 +24,7 @@ h2:not(#experience h2) {
 }
 
 .hero-section {
-	height: 93vh;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -74,10 +74,6 @@ h2:not(#experience h2) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.nav.open {
-	opacity: 1;
 }
 
 .nav ul {
@@ -344,42 +340,29 @@ h2:not(#experience h2) {
 	.hero-title-description {
 		font-size: 2rem;
 	}
+
 	.nav {
-		opacity: 1;
-		transform: translateX(-999%);
-		transition: transform 0.3s ease-in-out;
+		display: none;
 	}
 
-	.nav ul {
-		flex-direction: column;
-		align-items: flex-end;
+	.nav.open {
+		display: block;
+		text-align: right;
+		margin-top: 5rem;
+		margin-bottom: 0;
 		background-color: white;
 		border-radius: 0.5rem;
 	}
 
-	.nav ul li {
-		margin-bottom: 1.5rem;
-		padding-top: 0.5rem;
-	}
-
-	.nav ul li a {
-		color: black;
-		padding: 0.5rem;
-	}
-
-	.nav ul li a:hover {
-		text-decoration: underline;
-		color: black;
-	}
-
-	.nav.open {
-		transform: translateX(0);
-		width: 80%;
-		margin-left: 0.5rem;
-	}
-
 	.nav.open ul {
-		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-right: 0.5rem;
+	}
+
+	.nav.open ul li a {
+		color: black;
+		text-decoration: underline;
 	}
 
 	.hamburger {
@@ -388,8 +371,11 @@ h2:not(#experience h2) {
 
 	.hamburger__icon {
 		font-size: 2rem;
-		position: relative;
-		top: 0.2rem;
+	}
+
+	.nav.open ul li {
+		display: block;
+		margin: 1rem 0;
 	}
 
 	.project {
