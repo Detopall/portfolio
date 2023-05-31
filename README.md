@@ -9,8 +9,6 @@ This is the source code for my personal portfolio website. It showcases my skill
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Website
 
