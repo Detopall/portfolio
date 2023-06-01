@@ -2,11 +2,16 @@ function Experience() {
 	return (
 		<section id="experience">
 			<h2>Experience</h2>
-			<p>
-				These are most of the technologies, languages, frameworks,
-				databases ... that I have experience in.
-			</p>
-			<p> I also have a bachelors degree in Applied Computer Science with a major in AI.</p>
+			<div className="experience-info">
+				<p>
+					These are most of the technologies, languages, frameworks,
+					databases ... that I have experience in.
+				</p>
+				<p>
+					I also have a bachelors degree in Applied Computer Science
+					with a major in AI.
+				</p>
+			</div>
 			<h3> Languages </h3>
 			<div className="languages-experience">
 				<img

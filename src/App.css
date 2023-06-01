@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@font-face {
+	font-family: "JetBrains-Mono-Medium";
+	src: url(/public/assets/fonts/JetBrainsMono-Medium.woff2) format("woff2");
+}
+
+* {
+	font-family: "JetBrains-Mono-Medium", "Ubuntu", sans-serif;
+}
 
 :root {
 	--green: #00ff01;
@@ -6,7 +13,7 @@
 
 html,
 body {
-	font-family: "Ubuntu", sans-serif;
+	font-family: "JetBrains-Mono-Medium", "Ubuntu", sans-serif;
 	background-color: #1a191d;
 	color: white;
 	scroll-behavior: smooth;
@@ -116,6 +123,14 @@ h2:not(#experience h2) {
 
 .experience-active {
 	margin-top: 5rem;
+}
+
+.experience-info {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
 }
 
 .languages-experience {
