@@ -240,54 +240,6 @@
 		"youtubeLink": "https://www.youtube.com/embed/UBP8Mo-oRWo"
 	},
 	{
-		"name": "Salus Security",
-		"id": "salus-security",
-		"descriptionShort": "Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and helping the people in need as bystanders. Salus Security was originally a group project we had to work on during school.",
-		"descriptionLong": [
-			"Salus Security is an application that brings safety to citizens all over the world. This is done by people reporting incidents and helping the people in need as bystanders. Salus Security was originally a group project we had to work on during school.",
-			"The original school-project used Vue.js, HTML and SCSS on the frontend and Java on the backend with an H2 database. This Salus Security project uses HTML, CSS, JS and Node.js with Express and Express Handlebars on the backend with MongoDB as the database.",
-			"This project was more of a challenge to see if I could reproduce the original project using different technologies by myself. It was a great learning experience and I learned a lot from it."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
-				"title": "Node.js"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
-				"title": "Express.js"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
-				"title": "Handlebars"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
-				"title": "MongoDB"
-			}
-		],
-		"imageSrc": "/assets/images/salus-security.png",
-		"linkTo": "/projects/salus-security",
-		"githubLink": "https://github.com/Detopall/salus-security",
-		"youtubeLink": "https://www.youtube.com/embed/lTB0XfUWERQ"
-	},
-	{
 		"name": "Coming Soon: Data Science Project",
 		"id": "data-science-project",
 		"descriptionShort": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
