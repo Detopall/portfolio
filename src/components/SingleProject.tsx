@@ -21,6 +21,10 @@ function SingleProject() {
 		return () => window.removeEventListener("resize", checkScreenSize);
 	}, []);
 
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<div className="single-project">
 			<h1> {project.name}</h1>

@@ -82,10 +82,6 @@ function Experience() {
 					title="Laravel"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
-					title="Jupyter"
-				/>
-				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
 					title="TensorFlow"
 				/>
@@ -118,6 +114,10 @@ function Experience() {
 				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
 					title="Git"
+				/>
+				<img
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+					title="Jupyter"
 				/>
 
 				<img

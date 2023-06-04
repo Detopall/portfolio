@@ -163,6 +163,52 @@
 		"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 	},
 	{
+		"name": "Github/Gitlab Issue Board",
+		"id": "issue-board",
+		"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
+		"descriptionLong": [
+			"This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
+			"The frontend is built using React and Typescript. The backend is built using FastApi and Python. The database is just a simple json file where the issues are stored.",
+			"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working issue board (POC). I would want to add those things later.", "I also learned how to drag and drop elements with the built in HTML5 drag and drop API and I used the dialog tag in html."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+				"title": "Typescript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			}
+		],
+		"imageSrc": "/assets/images/issue-board.png",
+		"linkTo": "/projects/issue-board",
+		"githubLink": "https://github.com/Detopall/issue-board",
+		"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
+	},
+	{
 		"name": "Car Rental",
 		"id": "car-rental",
 		"descriptionShort": "This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and a 'contact us' page.",
@@ -240,22 +286,6 @@
 		"linkTo": "/projects/salus-security",
 		"githubLink": "https://github.com/Detopall/salus-security",
 		"youtubeLink": "https://www.youtube.com/embed/lTB0XfUWERQ"
-	},
-	{
-		"name": "Coming Soon: Github/Gitlab Issue Board",
-		"id": "issue-board",
-		"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
-		"descriptionLong": [
-			"This is a simple issue board that allows you to create, edit, delete and view issues. It also allows you to add labels to issues and filter issues based on labels.",
-			"This project will be done in the future."
-		],
-		"developmentStack": [
-			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
-		],
-		"imageSrc": "/assets/images/coming-soon.png",
-		"linkTo": "/projects/issue-board",
-		"githubLink": "https://github.com/Detopall",
-		"youtubeLink": "https://www.youtube.com/embed/D0R2h21JnB0"
 	},
 	{
 		"name": "Coming Soon: Data Science Project",
