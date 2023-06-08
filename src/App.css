@@ -31,16 +31,16 @@ h2:not(#experience h2) {
 }
 
 .hero-section {
-	height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	margin-top: 3rem;
 }
 
-.hero-name {
-	font-size: 4rem;
+h1.hero-name {
+	font-size: 4.5rem;
 	margin-bottom: 1rem;
 }
 
