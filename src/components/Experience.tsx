@@ -33,21 +33,12 @@ function Experience() {
 					title="TypeScript"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-					title="Sass"
-				/>
-
-				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
 					title="Node.js"
 				/>
 				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
 					title="Flask"
-				/>
-				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
-					title="Solidity"
 				/>
 				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
