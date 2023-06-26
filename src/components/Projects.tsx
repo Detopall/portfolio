@@ -6,20 +6,21 @@ function Projects() {
 		<section id="projects">
 			<h2>Projects</h2>
 			<div className="projects-container">
-				{
-					jsonProjects.map((project) => {
-						return (
-							<Project
-								key={project.id}
-								id={project.id}
-								name={project.name}
-								descriptionShort={project.descriptionShort}
-								imageSrc={project.imageSrc}
-								linkTo={project.linkTo}
-							/>
-						);
-					})
-				}
+				{jsonProjects.map((section) => {
+					const projects =
+						section["data-science"] ||
+						section["software-development"];
+					return projects.map((project) => (
+						<Project
+							key={project.id}
+							id={project.id}
+							name={project.name}
+							descriptionShort={project.descriptionShort}
+							imageSrc={project.imageSrc}
+							linkTo={project.linkTo}
+						/>
+					));
+				})}
 			</div>
 		</section>
 	);

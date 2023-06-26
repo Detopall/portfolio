@@ -5,6 +5,12 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import SingleProject from "./components/SingleProject";
+import CategoryProjects from "./components/CategoryProjects";
+
+export interface IProjectContainer {
+	"software-development": IProject[];
+	"data-science": IProject[];
+}
 
 export interface IProject {
 	id: string;
@@ -12,25 +18,34 @@ export interface IProject {
 	descriptionShort: string;
 	descriptionLong?: string[] | [];
 	developmentStack?: {
-		src: string | null,
-		title: string | null
-	}[],
+		src: string | null;
+		title: string | null;
+	}[];
 	imageSrc: string;
 	linkTo: string;
 	githubLink?: string;
 	youtubeLink?: string;
 }
 
+export interface IDevImg {
+	src: string;
+	title: string;
+}
+
 function App() {
 	return (
 		<div className="App">
 			<Nav />
-			
+
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/experience" element={<Experience />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/projects/:projectId" element={<SingleProject />} />
+				<Route path="/projects" element={<CategoryProjects />} />
+				<Route path="/projects/:categoryId" element={<Projects />} />
+				<Route
+					path="/projects/:categoryId/:projectId"
+					element={<SingleProject />}
+				/>
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
 		</div>

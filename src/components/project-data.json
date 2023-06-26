@@ -1,258 +1,425 @@
 [
 	{
-		"name": "Crow Chirp",
-		"id": "crow-chirp",
-		"descriptionShort": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
-		"descriptionLong": [
-			"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
-			"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
-			"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
-		],
-		"developmentStack": [
+		"software-development": [
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
+				"name": "Crow Chirp",
+				"id": "crow-chirp",
+				"descriptionShort": "This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting on posts and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+				"descriptionLong": [
+					"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+					"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
+					"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
 
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
-				"title": "Node.js"
-			},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+						"title": "Node.js"
+					},
 
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
-				"title": "Express.js"
-			},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+						"title": "Express.js"
+					},
 
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
-				"title": "Handlebars"
-			},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
+						"title": "Handlebars"
+					},
 
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+						"title": "MongoDB"
+					}
+				],
+				"imageSrc": "/assets/images/crow-chirp.png",
+				"linkTo": "/projects/crow-chirp",
+				"githubLink": "https://github.com/Detopall/twitter-clone",
+				"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
+			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
-				"title": "MongoDB"
+				"name": "VideoStreamTube",
+				"id": "video-stream-tube",
+				"descriptionShort": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
+				"descriptionLong": [
+					"Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for YouTube videos and watch them. It also has a dark mode feature.",
+					"This project thought me about React and the uses of dynamic routes. It also thought me about how to use an API with best practices in React."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+						"title": "React"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+						"title": "Typescript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					}
+				],
+				"imageSrc": "/assets/images/video-stream-tube.png",
+				"linkTo": "/projects/video-stream-tube",
+				"githubLink": "https://github.com/Detopall/video-stream-tube",
+				"youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
+			},
+			{
+				"name": "Github/Gitlab Issue Board",
+				"id": "issue-board",
+				"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
+				"descriptionLong": [
+					"This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
+					"The frontend is built using React and Typescript. The backend is built using FastApi and Python. The database is just a simple json file where the issues are stored.",
+					"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working issue board (POC). I would want to add those things later.",
+					"I also learned how to drag and drop elements with the built in HTML5 drag and drop API and I used the dialog tag in html."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+						"title": "React"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+						"title": "Typescript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+						"title": "FastApi"
+					}
+				],
+				"imageSrc": "/assets/images/issue-board.png",
+				"linkTo": "/projects/issue-board",
+				"githubLink": "https://github.com/Detopall/issue-board",
+				"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
+			},
+			{
+				"name": "Car Rental",
+				"id": "car-rental",
+				"descriptionShort": "This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and a 'contact us' page.",
+				"descriptionLong": [
+					"This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and 'contact us' page.",
+					"This project was made by using React and React Router Dom to redirect users to different pages."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+						"title": "React"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+						"title": "Typescript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					}
+				],
+				"imageSrc": "/assets/images/car-rental.png",
+				"linkTo": "/projects/car-rental",
+				"githubLink": "https://github.com/Detopall/react-car-rental",
+				"youtubeLink": "https://www.youtube.com/embed/UBP8Mo-oRWo"
 			}
-		],
-		"imageSrc": "/assets/images/crow-chirp.png",
-		"linkTo": "/projects/crow-chirp",
-		"githubLink": "https://github.com/Detopall/twitter-clone",
-		"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
+		]
 	},
 	{
-		"name": "Handwriting Digit Recognition",
-		"id": "handwriting-app",
-		"descriptionShort": "This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server.",
-		"descriptionLong": [
-			"This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset which contains over 70.000 images in total.",
-			"The model creation, training and testing is done on separate github projects. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server. The client can draw an digit and the server will return the prediction of the model.",
-			"This project thought me about how I can use my model in a real world application. The focus of this project wasn't the webpage but the model and how I can use it to receive data from the client (handwritten digit) and send it to the server and send a prediction back to the client."
-		],
-		"developmentStack": [
+		"data-science": [
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
+				"name": "Text Summary App",
+				"id": "text-summary-app",
+				"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+				"descriptionLong": [
+					"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+					"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
+					"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
 
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-				"title": "Python"
-			},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
 
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
-				"title": "FastApi"
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+						"title": "FastApi"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/text-summary-app.png",
+				"linkTo": "/projects/text-summary-app",
+				"githubLink": "https://github.com/Detopall/DL-text-summary-app",
+				"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-				"title": "Tensorflow"
+				"name": "Handwriting Digit Recognition",
+				"id": "handwriting-app",
+				"descriptionShort": "This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server.",
+				"descriptionLong": [
+					"This is a simple app that uses a self-made deep learning model to recognize handwritten digits. The model was trained on the MNIST dataset which contains over 70.000 images in total.",
+					"The model creation, training and testing is done on separate github projects. The app is built using HTML, CSS and JS on the client and Python with FastApi on the server. The client can draw an digit and the server will return the prediction of the model.",
+					"This project thought me about how I can use my model in a real world application. The focus of this project wasn't the webpage but the model and how I can use it to receive data from the client (handwritten digit) and send it to the server and send a prediction back to the client."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+						"title": "FastApi"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/handwriting-app.png",
+				"linkTo": "/projects/handwriting-app",
+				"githubLink": "https://github.com/Detopall/DL-handwriting-app",
+				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+			},
+			{
+				"name": "Ham or Spam",
+				"id": "ham-or-spam",
+				"descriptionShort": "This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is used inside a web application.",
+				"descriptionLong": [
+					"This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is using inside a web application.",
+					"The model was trained using a Kaggle dataset with over 5000 sms messages. The model was trained using the Logistic Regression algorithm.",
+					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client can input a message and the server will return the prediction of the model (ham or spam)."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+						"title": "Flask"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/ham-or-spam.png",
+				"linkTo": "/projects/ham-or-spam",
+				"githubLink": "https://github.com/Detopall/ham-or-spam",
+				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+			},
+			{
+				"name": "Sentiment Prediction",
+				"id": "sentiment-prediction",
+				"descriptionShort": "The goal of this project is to build a model to classify the sentiment of a tweet (neutral, positive or negative).",
+				"descriptionLong": [
+					"This project is a sentiment classification task. The dataset is from Kaggle. This data contains tweets and their sentiment labels. The sentiment labels are positive, negative, and neutral. The goal of this project is to build a model to classify the sentiment of a tweet. ",
+					"The model was trained using a Kaggle dataset with over 10.000 facial images.",
+					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client asks for an image of a persons face with color and the server will return the age prediction of the model."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+						"title": "Flask"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/sentiment-prediction.png",
+				"linkTo": "/projects/sentiment-prediction",
+				"githubLink": "https://github.com/Detopall/sentiment-prediction",
+				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+			},
+			{
+				"name": "Stroke Prediction",
+				"id": "stroke-prediction",
+				"descriptionShort": "A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
+				"descriptionLong": [
+					"A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
+					"This project uses a dataset from Kaggle to predict whether a person is likely to have a stroke or not. You can view the Power BI file in the visualisation folder to see the visualizations that were created using the raw data.",
+					"The model created used the GBM algorithm."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg",
+						"title": "Power BI"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/stroke-prediction.png",
+				"linkTo": "/projects/stroke-prediction",
+				"githubLink": "https://github.com/Detopall/stroke-prediction",
+				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+			},
+			{
+				"name": "Age Prediction",
+				"id": "age-prediction",
+				"descriptionShort": "This project uses Deep Learning to predict the age of the picture of a person. The model is used inside a web application.",
+				"descriptionLong": [
+					"This project uses Deep Learning to predict the age of the picture of a person. The model is used inside a web application.",
+					"The model was trained using a Kaggle dataset with over 10.000 facial images.",
+					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client asks for an image of a persons face with color and the server will return the age prediction of the model."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+						"title": "Flask"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/age-prediction.png",
+				"linkTo": "/projects/age-prediction",
+				"githubLink": "https://github.com/Detopall/age-prediction",
+				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			}
-		],
-		"imageSrc": "/assets/images/handwriting-app.png",
-		"linkTo": "/projects/handwriting-app",
-		"githubLink": "https://github.com/Detopall/DL-handwriting-app",
-		"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
-	},
-	{
-		"name": "VideoStreamTube",
-		"id": "video-stream-tube",
-		"descriptionShort": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
-		"descriptionLong": [
-			"Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for YouTube videos and watch them. It also has a dark mode feature.",
-			"This project thought me about React and the uses of dynamic routes. It also thought me about how to use an API with best practices in React."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-				"title": "React"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-				"title": "Typescript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			}
-		],
-		"imageSrc": "/assets/images/video-stream-tube.png",
-		"linkTo": "/projects/video-stream-tube",
-		"githubLink": "https://github.com/Detopall/video-stream-tube",
-		"youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
-	},
-	{
-		"name": "Text Summary App",
-		"id": "text-summary-app",
-		"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-		"descriptionLong": [
-			"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-			"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
-			"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-				"title": "Python"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
-				"title": "FastApi"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-				"title": "Tensorflow"
-			}
-		],
-		"imageSrc": "/assets/images/text-summary-app.png",
-		"linkTo": "/projects/text-summary-app",
-		"githubLink": "https://github.com/Detopall/DL-text-summary-app",
-		"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
-	},
-	{
-		"name": "Github/Gitlab Issue Board",
-		"id": "issue-board",
-		"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
-		"descriptionLong": [
-			"This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
-			"The frontend is built using React and Typescript. The backend is built using FastApi and Python. The database is just a simple json file where the issues are stored.",
-			"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working issue board (POC). I would want to add those things later.", "I also learned how to drag and drop elements with the built in HTML5 drag and drop API and I used the dialog tag in html."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-				"title": "React"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-				"title": "Typescript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-				"title": "Python"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
-				"title": "FastApi"
-			}
-		],
-		"imageSrc": "/assets/images/issue-board.png",
-		"linkTo": "/projects/issue-board",
-		"githubLink": "https://github.com/Detopall/issue-board",
-		"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
-	},
-	{
-		"name": "Car Rental",
-		"id": "car-rental",
-		"descriptionShort": "This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and a 'contact us' page.",
-		"descriptionLong": [
-			"This website is a prototype for a non-existant car rental company. It has a 'home', 'customer stories', 'vehicle models', 'about us', 'team', and 'contact us' page.",
-			"This project was made by using React and React Router Dom to redirect users to different pages."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-				"title": "React"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-				"title": "Typescript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			}
-		],
-		"imageSrc": "/assets/images/car-rental.png",
-		"linkTo": "/projects/car-rental",
-		"githubLink": "https://github.com/Detopall/react-car-rental",
-		"youtubeLink": "https://www.youtube.com/embed/UBP8Mo-oRWo"
-	},
-	{
-		"name": "Coming Soon: Data Science Project",
-		"id": "data-science-project",
-		"descriptionShort": "This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
-		"descriptionLong": [
-			"This project will use real world data to create a data science project. It will be a project containing data analysis, data visualization and machine learning or deep learning. The visualization will be done using PowerBI.",
-			"This project will be done in the future."
-		],
-		"developmentStack": [
-			{ "src": "/assets/images/coming-soon.png", "title": "Coming Soon" }
-		],
-		"imageSrc": "/assets/images/coming-soon.png",
-		"linkTo": "/projects/data-science-project",
-		"githubLink": "https://github.com/Detopall",
-		"youtubeLink": "https://www.youtube.com/embed/D0R2h21JnB0"
+		]
 	}
 ]
