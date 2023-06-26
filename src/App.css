@@ -172,7 +172,8 @@ h1.hero-name {
 
 .category-projects {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 2.5rem;
 	margin-top: 5rem;
 	text-decoration: none;
 }
@@ -487,5 +488,10 @@ h1.hero-name {
 	.single-project-main-img {
 		width: 90%;
 		height: auto;
+	}
+
+	.category-projects {
+		display: flex;
+		flex-direction: column;
 	}
 }

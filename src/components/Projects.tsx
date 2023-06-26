@@ -30,10 +30,10 @@ function Projects() {
 
 	return (
 		<section id="projects">
-			<h2>{toTitleCase(categoryId)} - Projects</h2>
 			<button onClick={handleGoBack} className="go-back-button">
 				Go Back
 			</button>
+			<h2>{toTitleCase(categoryId)} - Projects</h2>
 			<div className="projects-container">
 				{jsonProjects.map((section) => {
 					const projects = section[categoryId];

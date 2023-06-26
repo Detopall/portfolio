@@ -21,10 +21,6 @@ function SingleProject() {
 		return () => window.removeEventListener("resize", checkScreenSize);
 	}, []);
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-
 	if (
 		categoryId !== "software-development" &&
 		categoryId !== "data-science"
