@@ -44,8 +44,8 @@
 						"title": "MongoDB"
 					}
 				],
-				"imageSrc": "/assets/images/crow-chirp.png",
-				"linkTo": "/projects/crow-chirp",
+				"imageSrc": "/assets/images/software-development/crow-chirp.png",
+				"linkTo": "/projects/software-development/crow-chirp",
 				"githubLink": "https://github.com/Detopall/twitter-clone",
 				"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
 			},
@@ -75,8 +75,8 @@
 						"title": "HTML5"
 					}
 				],
-				"imageSrc": "/assets/images/video-stream-tube.png",
-				"linkTo": "/projects/video-stream-tube",
+				"imageSrc": "/assets/images/software-development/video-stream-tube.png",
+				"linkTo": "/projects/software-development/video-stream-tube",
 				"githubLink": "https://github.com/Detopall/video-stream-tube",
 				"youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
 			},
@@ -122,8 +122,8 @@
 						"title": "FastApi"
 					}
 				],
-				"imageSrc": "/assets/images/issue-board.png",
-				"linkTo": "/projects/issue-board",
+				"imageSrc": "/assets/images/software-development/issue-board.png",
+				"linkTo": "/projects/software-development/issue-board",
 				"githubLink": "https://github.com/Detopall/issue-board",
 				"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
 			},
@@ -153,8 +153,8 @@
 						"title": "HTML5"
 					}
 				],
-				"imageSrc": "/assets/images/car-rental.png",
-				"linkTo": "/projects/car-rental",
+				"imageSrc": "/assets/images/software-development/car-rental.png",
+				"linkTo": "/projects/software-development/car-rental",
 				"githubLink": "https://github.com/Detopall/react-car-rental",
 				"youtubeLink": "https://www.youtube.com/embed/UBP8Mo-oRWo"
 			}
@@ -203,8 +203,8 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/text-summary-app.png",
-				"linkTo": "/projects/text-summary-app",
+				"imageSrc": "/assets/images/data-science/text-summary-app.png",
+				"linkTo": "/projects/data-science/text-summary-app",
 				"githubLink": "https://github.com/Detopall/DL-text-summary-app",
 				"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 			},
@@ -249,8 +249,8 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/handwriting-app.png",
-				"linkTo": "/projects/handwriting-app",
+				"imageSrc": "/assets/images/data-science/handwriting-app.png",
+				"linkTo": "/projects/data-science/handwriting-app",
 				"githubLink": "https://github.com/Detopall/DL-handwriting-app",
 				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			},
@@ -295,8 +295,8 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/ham-or-spam.png",
-				"linkTo": "/projects/ham-or-spam",
+				"imageSrc": "/assets/images/data-science/ham-or-spam.png",
+				"linkTo": "/projects/data-science/ham-or-spam",
 				"githubLink": "https://github.com/Detopall/ham-or-spam",
 				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			},
@@ -341,8 +341,8 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/sentiment-prediction.png",
-				"linkTo": "/projects/sentiment-prediction",
+				"imageSrc": "/assets/images/data-science/sentiment-prediction.png",
+				"linkTo": "/projects/data-science/sentiment-prediction",
 				"githubLink": "https://github.com/Detopall/sentiment-prediction",
 				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			},
@@ -361,16 +361,12 @@
 						"title": "Python"
 					},
 					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg",
-						"title": "Power BI"
-					},
-					{
 						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/stroke-prediction.png",
-				"linkTo": "/projects/stroke-prediction",
+				"imageSrc": "/assets/images/data-science/stroke-prediction.png",
+				"linkTo": "/projects/data-science/stroke-prediction",
 				"githubLink": "https://github.com/Detopall/stroke-prediction",
 				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			},
@@ -415,8 +411,8 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/age-prediction.png",
-				"linkTo": "/projects/age-prediction",
+				"imageSrc": "/assets/images/data-science/age-prediction.png",
+				"linkTo": "/projects/data-science/age-prediction",
 				"githubLink": "https://github.com/Detopall/age-prediction",
 				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
 			}
