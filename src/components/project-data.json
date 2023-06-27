@@ -298,7 +298,7 @@
 				"imageSrc": "/assets/images/data-science/ham-or-spam.png",
 				"linkTo": "/projects/data-science/ham-or-spam",
 				"githubLink": "https://github.com/Detopall/ham-or-spam",
-				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+				"youtubeLink": "https://www.youtube.com/embed/frTbiDvl2a0"
 			},
 			{
 				"name": "Sentiment Prediction",
@@ -344,7 +344,7 @@
 				"imageSrc": "/assets/images/data-science/sentiment-prediction.png",
 				"linkTo": "/projects/data-science/sentiment-prediction",
 				"githubLink": "https://github.com/Detopall/sentiment-prediction",
-				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+				"youtubeLink": "https://www.youtube.com/embed/kVmJ1_4b4eU"
 			},
 			{
 				"name": "Stroke Prediction",
@@ -368,7 +368,7 @@
 				"imageSrc": "/assets/images/data-science/stroke-prediction.png",
 				"linkTo": "/projects/data-science/stroke-prediction",
 				"githubLink": "https://github.com/Detopall/stroke-prediction",
-				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+				"youtubeLink": "https://www.youtube.com/embed/FHZU1c1uE0Y"
 			},
 			{
 				"name": "Age Prediction",
@@ -414,7 +414,7 @@
 				"imageSrc": "/assets/images/data-science/age-prediction.png",
 				"linkTo": "/projects/data-science/age-prediction",
 				"githubLink": "https://github.com/Detopall/age-prediction",
-				"youtubeLink": "https://www.youtube.com/embed/28k1XKvm1fo"
+				"youtubeLink": "https://www.youtube.com/embed/mkqzGwGjDC8"
 			}
 		]
 	}
