@@ -24,7 +24,7 @@ function Experience() {
 					title="JavaScript"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
 					title="CSS3"
 				/>
 
@@ -33,15 +33,7 @@ function Experience() {
 					title="TypeScript"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-					title="Node.js"
-				/>
-				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
-					title="Flask"
-				/>
-				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
 					title="Python"
 				/>
 				<img
@@ -53,15 +45,23 @@ function Experience() {
 
 			<div className="languages-experience">
 				<img
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+					title="Node.js"
+				/>
+				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
 					title="Express.js"
+				/>
+				<img
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
+					title="Flask"
 				/>
 				<img
 					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg"
 					title="Handlebars"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
 					title="React"
 				/>
 				<img
@@ -69,11 +69,7 @@ function Experience() {
 					title="Vue.js"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"
-					title="Laravel"
-				/>
-				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg"
 					title="TensorFlow"
 				/>
 			</div>
@@ -99,11 +95,11 @@ function Experience() {
 
 			<div className="languages-experience">
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
 					title="Docker"
 				/>
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
 					title="Git"
 				/>
 				<img
@@ -112,12 +108,12 @@ function Experience() {
 				/>
 
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
 					title="Firebase"
 				/>
 
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
 					title="GitHub"
 				/>
 				<img
@@ -155,7 +151,7 @@ function Experience() {
 				/>
 
 				<img
-					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
 					title="Visual Studio Code"
 				/>
 				<img
