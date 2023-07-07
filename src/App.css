@@ -312,7 +312,14 @@ h1.hero-name {
 
 .single-project-main-img {
 	margin-bottom: 2rem;
-	width: 50%;
+	width: 100%;
+	max-width: 40rem;
+}
+
+.single-project-main-img img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
 .single-project-description {
