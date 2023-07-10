@@ -296,8 +296,8 @@
 				"descriptionShort": "The goal of this project is to build a model to classify the sentiment of a tweet (neutral, positive or negative).",
 				"descriptionLong": [
 					"This project is a sentiment classification task. The dataset is from Kaggle. This data contains tweets and their sentiment labels. The sentiment labels are positive, negative, and neutral. The goal of this project is to build a model to classify the sentiment of a tweet. ",
-					"The model was trained using a Kaggle dataset with over 10.000 facial images.",
-					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client asks for an image of a persons face with color and the server will return the age prediction of the model."
+					"This project thought be about the fundamentals of NLP and text pre-processing.",
+					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client asks for a piece of text and the server will return the prediction of the model (positive, negative, or neutral)."
 				],
 				"developmentStack": [
 					{
