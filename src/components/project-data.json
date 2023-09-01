@@ -81,6 +81,42 @@
 				"youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
 			},
 			{
+				"name": "Stream Saga",
+				"id": "stream-saga",
+				"descriptionShort": "Stream Saga is a web application that allows users to explore and keep track of their favorite TV shows and episodes. Users can search for shows, and mark the episodes they have watched. The application provides a user-friendly interface and a streamlined experience for managing TV show consumption.",
+				"descriptionLong": [
+					"Stream Saga is a web application that allows users to explore and keep track of their favorite TV shows and episodes. Users can search for shows, and mark the episodes they have watched. The application provides a user-friendly interface and a streamlined experience for managing TV show consumption.",
+					"The frontend is built using React and Typescript. There is no backend or database. The data is fetched from an API. All changes are stored in the local storage of the browser.",
+					"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working streaming service (POC). I would want to add those things later."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+						"title": "React"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+						"title": "Typescript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					}
+				],
+				"imageSrc": "/assets/images/software-development/stream-saga.png",
+				"linkTo": "/projects/software-development/stream-saga",
+				"githubLink": "https://github.com/Detopall/stream-saga",
+				"youtubeLink": "https://www.youtube.com/embed/K6QD5ag1UnI"
+			},
+			{
 				"name": "Github/Gitlab Issue Board",
 				"id": "issue-board",
 				"descriptionShort": "This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
