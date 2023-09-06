@@ -7,7 +7,7 @@ function Home() {
 			<p className="hero-title-description">
 				Data Scientist | Software Developer
 			</p>
-			<p>
+			<p className="hero-description">
 				Be sure to check out my
 				<span className="hero-span"> 
 					<Link to="/experience">Experience</Link>

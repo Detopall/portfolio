@@ -435,8 +435,13 @@ h1.hero-name {
 		font-size: 5rem;
 	}
 
+	.hero-span {
+		display: block;
+	}
+
 	.hero-title-description {
 		font-size: 2rem;
+		display: block;
 	}
 
 	.nav {
