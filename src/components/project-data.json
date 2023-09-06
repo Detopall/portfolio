@@ -199,52 +199,6 @@
 	{
 		"data-science": [
 			{
-				"name": "Text Summary App",
-				"id": "text-summary-app",
-				"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-				"descriptionLong": [
-					"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-					"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
-					"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
-				],
-				"developmentStack": [
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-						"title": "HTML5"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-						"title": "JavaScript"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-						"title": "CSS3"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-						"title": "Python"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
-						"title": "FastApi"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-						"title": "Tensorflow"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-						"title": "Jupyter"
-					}
-				],
-				"imageSrc": "/assets/images/data-science/text-summary-app.png",
-				"linkTo": "/projects/data-science/text-summary-app",
-				"githubLink": "https://github.com/Detopall/DL-text-summary-app",
-				"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
-			},
-			{
 				"name": "Handwriting Hiragana Quiz",
 				"id": "handwriting-hiragana-quiz",
 				"descriptionShort": "This is a simple app that uses a self-made deep learning model to recognize handwritten Hiragana (Japanese characters). The model was trained on a large dataset containing Hiragana characters. The app is built using React on the client and Python with FastApi on the server.",
@@ -279,52 +233,6 @@
 				"linkTo": "/projects/data-science/handwriting-hiragana-quiz",
 				"githubLink": "https://github.com/Detopall/handwriting-hiragana",
 				"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
-			},
-			{
-				"name": "Ham or Spam",
-				"id": "ham-or-spam",
-				"descriptionShort": "This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is used inside a web application.",
-				"descriptionLong": [
-					"This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is using inside a web application.",
-					"The model was trained using a Kaggle dataset with over 5000 sms messages. The model was trained using the Logistic Regression algorithm.",
-					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client can input a message and the server will return the prediction of the model (ham or spam)."
-				],
-				"developmentStack": [
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-						"title": "HTML5"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-						"title": "JavaScript"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-						"title": "CSS3"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-						"title": "Python"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
-						"title": "Flask"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-						"title": "Tensorflow"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-						"title": "Jupyter"
-					}
-				],
-				"imageSrc": "/assets/images/data-science/ham-or-spam.png",
-				"linkTo": "/projects/data-science/ham-or-spam",
-				"githubLink": "https://github.com/Detopall/ham-or-spam",
-				"youtubeLink": "https://www.youtube.com/embed/frTbiDvl2a0"
 			},
 			{
 				"name": "Sentiment Prediction",
@@ -373,30 +281,6 @@
 				"youtubeLink": "https://www.youtube.com/embed/ludQxnh3adw"
 			},
 			{
-				"name": "Stroke Prediction",
-				"id": "stroke-prediction",
-				"descriptionShort": "A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
-				"descriptionLong": [
-					"A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
-					"This project uses a dataset from Kaggle to predict whether a person is likely to have a stroke or not. You can view the Power BI file in the visualisation folder to see the visualizations that were created using the raw data.",
-					"The model created used the GBM algorithm."
-				],
-				"developmentStack": [
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-						"title": "Python"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-						"title": "Jupyter"
-					}
-				],
-				"imageSrc": "/assets/images/data-science/stroke-prediction.png",
-				"linkTo": "/projects/data-science/stroke-prediction",
-				"githubLink": "https://github.com/Detopall/stroke-prediction",
-				"youtubeLink": "https://www.youtube.com/embed/FHZU1c1uE0Y"
-			},
-			{
 				"name": "Age Prediction",
 				"id": "age-prediction",
 				"descriptionShort": "This project uses Deep Learning to predict the age of the picture of a person. The model is used inside a web application.",
@@ -404,6 +288,51 @@
 					"This project uses Deep Learning to predict the age of the picture of a person. The model is used inside a web application.",
 					"The model was trained using a Kaggle dataset with over 10.000 facial images.",
 					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client asks for an image of a persons face with color and the server will return the age prediction of the model."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
+						"title": "Flask"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/data-science/age-prediction.png",
+				"linkTo": "/projects/data-science/age-prediction",
+				"githubLink": "https://github.com/Detopall/age-prediction",
+				"youtubeLink": "https://www.youtube.com/embed/IKgAeRdI7xQ"
+			},
+			{
+				"name": "Ham or Spam",
+				"id": "ham-or-spam",
+				"descriptionShort": "This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is used inside a web application.",
+				"descriptionLong": [
+					"This project uses Machine Learning to predict if an sms message is ham (real) or spam (fake). The model is using inside a web application.",
+					"The model was trained using a Kaggle dataset with over 5000 sms messages. The model was trained using the Logistic Regression algorithm.",
+					"The web application is built using HTML, CSS and JS on the client and Python (Flask) on the server. The client can input a message and the server will return the prediction of the model (ham or spam)."
 				],
 				"developmentStack": [
 					{
@@ -437,10 +366,80 @@
 						"title": "Jupyter"
 					}
 				],
-				"imageSrc": "/assets/images/data-science/age-prediction.png",
-				"linkTo": "/projects/data-science/age-prediction",
-				"githubLink": "https://github.com/Detopall/age-prediction",
-				"youtubeLink": "https://www.youtube.com/embed/IKgAeRdI7xQ"
+				"imageSrc": "/assets/images/data-science/ham-or-spam.png",
+				"linkTo": "/projects/data-science/ham-or-spam",
+				"githubLink": "https://github.com/Detopall/ham-or-spam",
+				"youtubeLink": "https://www.youtube.com/embed/frTbiDvl2a0"
+			},
+			{
+				"name": "Stroke Prediction",
+				"id": "stroke-prediction",
+				"descriptionShort": "A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
+				"descriptionLong": [
+					"A data science project analyzing and creating a model to predicts chance of having a stroke. The visualisation is done using powerBI.",
+					"This project uses a dataset from Kaggle to predict whether a person is likely to have a stroke or not. You can view the Power BI file in the visualisation folder to see the visualizations that were created using the raw data.",
+					"The model created used the GBM algorithm."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/data-science/stroke-prediction.png",
+				"linkTo": "/projects/data-science/stroke-prediction",
+				"githubLink": "https://github.com/Detopall/stroke-prediction",
+				"youtubeLink": "https://www.youtube.com/embed/FHZU1c1uE0Y"
+			},
+			{
+				"name": "Text Summary App",
+				"id": "text-summary-app",
+				"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+				"descriptionLong": [
+					"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
+					"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
+					"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+						"title": "HTML5"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+						"title": "JavaScript"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						"title": "CSS3"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+						"title": "FastApi"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+						"title": "Jupyter"
+					}
+				],
+				"imageSrc": "/assets/images/data-science/text-summary-app.png",
+				"linkTo": "/projects/data-science/text-summary-app",
+				"githubLink": "https://github.com/Detopall/DL-text-summary-app",
+				"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 			}
 		]
 	}

@@ -312,8 +312,8 @@ h1.hero-name {
 
 .single-project-main-img {
 	margin-bottom: 2rem;
-	width: 100%;
-	max-width: 40rem;
+	width: 640px;
+	max-width: 480px;
 }
 
 .single-project-main-img img {
