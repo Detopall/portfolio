@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./components/pages/Home";
 import Nav from "./components/Nav";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import SingleProject from "./components/SingleProject";
-import CategoryProjects from "./components/CategoryProjects";
-import Events from "./components/Events";
-import SingleEvent from "./components/SingleEvent";
+import Experience from "./components/pages/Experience";
+import Projects from "./components/pages/Projects";
+import About from "./components/pages/About";
+import SingleProject from "./components/pages/SingleProject";
+import CategoryProjects from "./components/pages/CategoryProjects";
+import Events from "./components/pages/Events";
+import SingleEvent from "./components/pages/SingleEvent";
 
 export interface IProjectContainer {
 	"software-development": IProject[];

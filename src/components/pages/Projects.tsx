@@ -1,7 +1,7 @@
-import { IProject } from "../App";
-import ErrorMessage from "./ErrorMessage";
+import { IProject } from "../../App";
+import ErrorMessage from "../ErrorMessage";
 import Project from "./Project";
-import jsonProjects from "./project-data.json";
+import jsonProjects from "../project-data.json";
 import { useParams, useNavigate } from "react-router-dom";
 
 function Projects() {

@@ -1,5 +1,5 @@
-import { IEvent } from "../App";
-import jsonEvents from "./events-data.json";
+import { IEvent } from "../../App";
+import jsonEvents from "../events-data.json";
 import { Link } from "react-router-dom";
 
 function Events() {

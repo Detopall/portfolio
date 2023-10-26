@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { IProject } from "../App";
+import { IProject } from "../../App";
 
 
 function Project({ name, descriptionShort, imageSrc, linkTo }: IProject) {

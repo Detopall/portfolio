@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import jsonEvents from "./events-data.json";
-import ErrorMessage from "./ErrorMessage";
-import GoBackButton from "./GoBackButton";
+import jsonEvents from "../events-data.json";
+import ErrorMessage from "../ErrorMessage";
+import GoBackButton from "../GoBackButton";
 
 function SingleEvent() {
 	const { eventId } = useParams();
@@ -27,8 +27,8 @@ function SingleEvent() {
 					</div>
 				</div>
 			)) || (
-				<ErrorMessage message="This eventId doesn't exist. Try again with another event." />
-			)}
+					<ErrorMessage message="This eventId doesn't exist. Try again with another event." />
+				)}
 		</>
 	);
 }

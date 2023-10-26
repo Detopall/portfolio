@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import jsonProjects from "./project-data.json";
-import { IProject, IDevImg } from "../App";
+import jsonProjects from "../project-data.json";
+import { IProject, IDevImg } from "../../App";
 import { useEffect, useState } from "react";
-import ErrorMessage from "./ErrorMessage";
-import GoBackButton from "./GoBackButton";
+import ErrorMessage from "../ErrorMessage";
+import GoBackButton from "../GoBackButton";
 
 function SingleProject() {
 	const { categoryId, projectId } = useParams();
