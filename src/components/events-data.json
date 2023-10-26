@@ -1,0 +1,41 @@
+[
+	{
+		"id": "tech-expo-2023",
+		"name": "Tech Expo 2023",
+		"descriptionShort": "Explore the latest in technology and innovation.",
+		"descriptionLong": [
+			"Join us at Tech Expo 2023 to witness groundbreaking technologies.",
+			"Discover the future of AI, robotics, and more!",
+			"Don't miss out on this tech extravaganza."
+		],
+		"date": "2023-11-15",
+		"imageSrc": "/assets/images/software-development/crow-chirp.png",
+		"linkTo": "/events/tech-expo"
+	},
+	{
+		"id": "music-fest-2023",
+		"name": "Music Festival 2023",
+		"descriptionShort": "Experience a day filled with music, fun, and excitement.",
+		"descriptionLong": [
+			"Get ready for an unforgettable music festival experience.",
+			"Live performances from top artists, food, and more!",
+			"Secure your tickets now for the ultimate musical celebration."
+		],
+		"date": "2023-12-08",
+		"imageSrc": "/assets/images/software-development/crow-chirp.png",
+		"linkTo": "/events/music-festival"
+	},
+	{
+		"id": "art-show-2023",
+		"name": "Annual Art Show 2023",
+		"descriptionShort": "Immerse yourself in the world of art and creativity.",
+		"descriptionLong": [
+			"Discover incredible artworks from talented artists.",
+			"Paintings, sculptures, and installations that captivate the soul.",
+			"Join us for a celebration of artistic expression."
+		],
+		"date": "2023-10-20",
+		"imageSrc": "/assets/images/software-development/crow-chirp.png",
+		"linkTo": "/events/annual-art-show"
+	}
+]

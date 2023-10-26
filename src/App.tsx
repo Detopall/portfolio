@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import SingleProject from "./components/SingleProject";
 import CategoryProjects from "./components/CategoryProjects";
+import Events from "./components/Events";
+import SingleEvent from "./components/SingleEvent";
 
 export interface IProjectContainer {
 	"software-development": IProject[];
@@ -27,6 +29,16 @@ export interface IProject {
 	youtubeLink?: string;
 }
 
+export interface IEvent {
+	id: string;
+	name: string;
+	descriptionShort: string;
+	descriptionLong: string[];
+	date: string;
+	imageSrc: string;
+	linkTo: string;
+}
+
 export interface IDevImg {
 	src: string;
 	title: string;
@@ -40,6 +52,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/experience" element={<Experience />} />
+				<Route path="/events" element={<Events />} />
+				<Route path="/events/:eventId" element={<SingleEvent />} />
 				<Route path="/projects" element={<CategoryProjects />} />
 				<Route path="/projects/:categoryId" element={<Projects />} />
 				<Route
