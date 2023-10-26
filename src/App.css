@@ -434,6 +434,44 @@ h1.hero-name {
 	transform: scale(0.9);
 }
 
+/* Single Event Page */
+
+.single-event-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem;
+}
+
+.single-event-container h1 {
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.single-event-date {
+	color: #888;
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+
+.single-event-content {
+	color: white;
+	text-align: center;
+	max-width: 800px;
+	margin-bottom: 2rem;
+}
+
+.single-event-image-container {
+	margin-top: 2rem;
+}
+
+.single-event-image-container img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 /* About Styles */
 
 #about {
