@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Contact() {
+function About() {
 	const [pdfLink, setPdfLink] = useState("");
 
 	useEffect(() => {
@@ -15,8 +15,8 @@ function Contact() {
 	}, []);
 
 	return (
-		<section id="contact">
-			<h2> Contact </h2>
+		<section id="about">
+			<h2> About </h2>
 			<p> I would love to hear from you! </p>
 			<div id="badges">
 				<a href="mailto:denis.topallaj13@gmail.com">
@@ -51,4 +51,4 @@ function Contact() {
 	);
 }
 
-export default Contact;
+export default About;

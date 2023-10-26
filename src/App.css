@@ -379,19 +379,19 @@ h1.hero-name {
 	color: white;
 }
 
-/* Contact Styles */
+/* About Styles */
 
-#contact {
+#about {
 	text-align: center;
 	padding: 50px 0;
 }
 
-#contact h2 {
+#about h2 {
 	font-size: 2rem;
 	margin-bottom: 10px;
 }
 
-#contact p {
+#about p {
 	font-size: 1.2rem;
 	margin-bottom: 30px;
 }

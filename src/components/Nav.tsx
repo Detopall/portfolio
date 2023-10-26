@@ -37,8 +37,8 @@ function Nav() {
 						</Link>
 					</li>
 					<li>
-						<Link to="/contact" onClick={toggleNav}>
-							Contact
+						<Link to="/about" onClick={toggleNav}>
+							About
 						</Link>
 					</li>
 				</ul>

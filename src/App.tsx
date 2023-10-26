@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import About from "./components/About";
 import SingleProject from "./components/SingleProject";
 import CategoryProjects from "./components/CategoryProjects";
 
@@ -46,7 +46,7 @@ function App() {
 					path="/projects/:categoryId/:projectId"
 					element={<SingleProject />}
 				/>
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/about" element={<About />} />
 			</Routes>
 		</div>
 	);
