@@ -1,12 +1,12 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import jsonProjects from "./project-data.json";
 import { IProject, IDevImg } from "../App";
 import { useEffect, useState } from "react";
 import ErrorMessage from "./ErrorMessage";
+import GoBackButton from "./GoBackButton";
 
 function SingleProject() {
 	const { categoryId, projectId } = useParams();
-	const navigate = useNavigate();
 
 	const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -50,15 +50,9 @@ function SingleProject() {
 		return <ErrorMessage message="Project not found" />;
 	}
 
-	function handleGoBack() {
-		navigate(-1);
-	}
-
 	return (
 		<>
-			<button onClick={handleGoBack} className="go-back-button">
-				Go Back
-			</button>
+			<GoBackButton />
 			<div className="single-project">
 				<h1>{project.name}</h1>
 				<img
