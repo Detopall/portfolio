@@ -12,9 +12,13 @@ function Home() {
 				<span className="hero-span"> 
 					<Link to="/experience">Experience</Link>
 				</span>
-				and
+				,
 				<span className="hero-span">
 					<Link to="/projects">Projects</Link>
+				</span>
+				and
+				<span className="hero-span">
+					<Link to="/events">Events</Link>
 				</span>
 				or
 				<span className="hero-span">

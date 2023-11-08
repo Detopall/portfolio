@@ -33,10 +33,16 @@ export interface IEvent {
 	id: string;
 	name: string;
 	descriptionShort: string;
-	descriptionLong: string[];
+	content: IEventContent[];
 	date: string;
 	imageSrc: string;
 	linkTo: string;
+}
+
+export interface IEventContent {
+	type: string;
+	title?: string;
+	body?: string[];
 }
 
 export interface IDevImg {

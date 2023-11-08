@@ -6,7 +6,6 @@ function Events() {
 	return (
 		<>
 			<div className="events-container">
-				<h1>Work in progress &#128295; Used fake data. </h1>
 				{jsonEvents.map((event: IEvent) => {
 					return (
 						<Link to={`/events/${event.id}`} key={event.id}>

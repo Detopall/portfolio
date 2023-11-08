@@ -456,13 +456,20 @@ h1.hero-name {
 
 .single-event-content {
 	color: white;
-	text-align: center;
+	font-size: 2rem;
 	max-width: 800px;
 	margin-bottom: 2rem;
 }
 
+.single-event-content p {
+	margin-bottom: 1rem;
+	font-size: 1.15rem;
+}
+
 .single-event-image-container {
 	margin-top: 2rem;
+	width: 30rem;
+	border-radius: 1rem;
 }
 
 .single-event-image-container img {
