@@ -15,6 +15,7 @@ function Events() {
 									<div className="event-description">
 										<h3>{event.name}</h3>
 										<p>{event.descriptionShort}</p>
+										<span className="event-date">{event.date}</span>
 									</div>
 									<div className="event-img">
 										<img

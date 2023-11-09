@@ -109,7 +109,7 @@ h1.hero-name {
 /* General Container Styles */
 
 .category-projects-container, .events-container, .about-container, .experience-container {
-	margin-top: 5rem;
+	margin: 5rem 0;
 }
 
 /* Section Styles */
@@ -434,6 +434,10 @@ h1.hero-name {
 
 .event-img img:hover {
 	transform: scale(0.9);
+}
+
+.event-date {
+	font-style: italic;
 }
 
 /* Single Event Page */

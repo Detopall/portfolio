@@ -1,5 +1,50 @@
 [
 	{
+		"id": "the-creation-of-this-site",
+		"name": "The Creation Of This Site",
+		"descriptionShort": "Creating a portfolio website is a journey of self-discovery, a process of weaving together a tapestry of skills and experiences. Let me take you on a tour of my journey, from the initial spark of inspiration to the final product.",
+		"content": [
+			{
+				"type": "section",
+				"title": "Crafting My Portfolio Website",
+				"body": [
+					"In crafting my portfolio website, I embarked on a dynamic journey using Firebase and React, weaving together a tapestry of skills in JavaScript, HTML, and CSS. The canvas of my creation extends beyond mere code, as I sought to streamline and organize vast amounts of information without resorting to a conventional database."
+				]
+			},
+			{
+				"type": "section",
+				"title": "The Dynamic Duo: Vite and React",
+				"body": [
+					"To tackle the challenge, I turned to the powerful combo of Vite and React, a contemporary duo that effortlessly brings my vision to life. Vite's versatility shines through, offering support for Vue.js, TypeScript, JavaScript, Preact, Lit, Svelte, Solid.js, Qwik, and more. This flexibility made it the standout choice for crafting my digital playground."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Using a JSON file as a Database?",
+				"body": [
+					"One of the pivotal aspects of my portfolio lies in the Projects and Events sections, where a multitude of entries share common data elements. To maintain elegance in design and efficiency in development, I opted for a JSON file. This not only keeps the codebase clean but also facilitates easy updates and additions, ensuring that my portfolio remains a dynamic reflection of my journey."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Deploying with Firebase",
+				"body": [
+					"And when it came to sharing my creation with the world, Firebase took the stage. Its free tier, unlike many others, doesn't demand a credit card upfront, offering a genuinely free experience. This resonated with my ethos, avoiding the potential pitfalls of unexpected charges for breaching usage limits."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Conclusion",
+				"body": [
+					"I had a blast crafting my portfolio website, and I hope you enjoy exploring it as much as I enjoyed creating it! This is still a work in progress, and I look forward to adding more content and features in the future."
+				]
+			}
+		],
+		"date": "09-11-2023",
+		"imageSrc": "/assets/images/events/the-creation-of-this-site.png",
+		"linkTo": "/events/the-creation-of-this-site"
+	},
+	{
 		"id": "improving-user-experience-hendrik-manhaeve-2023",
 		"name": "Improving User Experience: Insights from ISO Consultant Hendrik Manhaeve - 2023",
 		"descriptionShort": "Explore the latest in UX and UI design with Hendrik Manhaeve, a consultant at the International Standardization Organization (ISO) and a board member of the ISA Belgian chapter.",
