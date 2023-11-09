@@ -15,7 +15,7 @@ function About() {
 	}, []);
 
 	return (
-		<section id="about">
+		<section id="about" className="about-container">
 			<h2> About </h2>
 			<p> I would love to hear from you! </p>
 			<div id="badges">

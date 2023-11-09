@@ -26,10 +26,6 @@ h2 {
 	text-align: center;
 }
 
-h2:not(#experience h2) {
-	margin-top: 5rem;
-}
-
 .hero-section {
 	display: flex;
 	flex-direction: column;
@@ -110,9 +106,15 @@ h1.hero-name {
 	color: var(--green);
 }
 
+/* General Container Styles */
+
+.category-projects-container, .events-container, .about-container, .experience-container {
+	margin-top: 5rem;
+}
+
 /* Section Styles */
 
-#experience {
+.experience-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -382,16 +384,15 @@ h1.hero-name {
 
 /* Event Styles */
 
-.events-container {
+.events-content {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5rem;
 }
 
-.events-container a {
+.events-content a {
 	text-decoration: none;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -483,7 +484,6 @@ h1.hero-name {
 
 #about {
 	text-align: center;
-	padding: 50px 0;
 }
 
 #about h2 {

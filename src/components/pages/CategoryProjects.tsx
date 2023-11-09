@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function CategoryProjects() {
 	return (
-		<section>
+		<section className="category-projects-container">
 			<h2>Projects</h2>
 			<div className="category-projects">
 				<Link to="/projects/software-development">

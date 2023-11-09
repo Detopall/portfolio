@@ -6,24 +6,28 @@ function Events() {
 	return (
 		<>
 			<div className="events-container">
-				{jsonEvents.map((event: IEvent) => {
-					return (
-						<Link to={`/events/${event.id}`} key={event.id}>
-							<div className="event">
-								<div className="event-description">
-									<h3>{event.name}</h3>
-									<p>{event.descriptionShort}</p>
+				<h2> Events </h2>
+				<div className="events-content">
+					{jsonEvents.map((event: IEvent) => {
+						return (
+							<Link to={`/events/${event.id}`} key={event.id}>
+								<div className="event">
+									<div className="event-description">
+										<h3>{event.name}</h3>
+										<p>{event.descriptionShort}</p>
+									</div>
+									<div className="event-img">
+										<img
+											src={event.imageSrc}
+											alt={event.name}
+										/>
+									</div>
 								</div>
-								<div className="event-img">
-									<img
-										src={event.imageSrc}
-										alt={event.name}
-									/>
-								</div>
-							</div>
-						</Link>
-					);
-				})}
+							</Link>
+						);
+					})}
+				</div>
+
 			</div>
 		</>
 	);
