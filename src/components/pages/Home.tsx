@@ -20,9 +20,9 @@ function Home() {
 				<span className="hero-span">
 					<Link to="/events">Events</Link>
 				</span>
-				or
+				or learn more
 				<span className="hero-span">
-					<Link to="/contact">Contact</Link>
+					<Link to="/about">About</Link>
 				</span>
 				me!
 			</p>

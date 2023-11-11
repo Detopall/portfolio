@@ -488,6 +488,11 @@ h1.hero-name {
 
 #about {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	margin: 3.5rem 10rem;
 }
 
 #about h2 {
@@ -515,6 +520,11 @@ h1.hero-name {
 	width: 150px;
 	height: 50px;
 	object-fit: contain;
+}
+
+.about-container span {
+	font-weight: bold;
+	color: var(--green);
 }
 
 /* Error Styles */

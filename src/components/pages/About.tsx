@@ -17,6 +17,7 @@ function About() {
 	return (
 		<section id="about" className="about-container">
 			<h2> About </h2>
+			<p>Hello there! I'm <span className="about-span">Denis Topallaj</span>, an enthusiastic applied computer science student with a keen passion for <span className="about-span">Software Engineering</span> and <span className="about-span">AI</span>. Through my journey, I've crafted projects that not only showcase my skills but also reflect my deep interest in these dynamic fields. Join me as I navigate the ever-evolving landscape of technology and bring ideas to life through code.</p>
 			<p> I would love to hear from you! </p>
 			<div id="badges">
 				<a href="mailto:denis.topallaj13@gmail.com">
