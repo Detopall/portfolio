@@ -1,5 +1,129 @@
 [
 	{
+		"id": "unveiling-redwoodjs-streamlining-web-development-2023",
+		"name": "Unveiling RedwoodJS: Streamlining Web Development from Adam Juran - 2023",
+		"descriptionShort": "Adam Juran, a software developer since 1998, will tell us about RedwoodJS, a full-stack framework for building and deploying web applications.",
+		"content": [
+			{
+				"type": "section",
+				"title": "Introduction",
+				"body": [
+					"Adam Juran, a software developer since 1998, will tell us about RedwoodJS, a full-stack framework for building and deploying web applications. He also created a simple blog demo using mostly his CLI (command line interface). Let's delve into the key takeaways from his talk."
+				]
+			},
+			{
+				"type": "section",
+				"title": "RedwoodJS: The Basics",
+				"body": [
+					"RedwoodJS, a dynamic JavaScript framework, revolutionizes web development. Unlike libraries, frameworks like Redwood offer pre-built tools and best practices for rapid application creation. RedwoodJS, a full-stack framework, comes out-of-the-box with React, GraphQL, Prisma, TypeScript, Jest, and Storybook."
+				]
+			},
+			{
+				"type": "section",
+				"title": "RedwoodJS: Blog Posts Demo",
+				"body": [
+					"In a captivating demo, Mr. Juran showcased RedwoodJS's prowess by swiftly building a functional blog site. The CLI's efficiency in creating endpoints highlighted the framework's power, providing a seamless experience for developers to focus on business logic. RedwoodJS emerges as a game-changer, simplifying and accelerating web app development.",
+					"He showed how powerful the CLI (command line interface) is when creating any app. When the application ran, the homepage of the application was a list of all endpoints that RedwoodJS created in just a few commands. He actually created a working blog web app that allows user to create posts and being able to display these posts."
+				]
+			},
+			{
+				"type": "section",
+				"title": "General Information about the guest lesson",
+				"body": [
+					"**Is this an event that comes back weekly/yearly? How long did it last?**",
+					"This is not an event that comes back weekly or yearly. This event was at Howest and about 1h long.",
+					"**Who is the target audience?**",
+					"The target audience is software developers that have a little bit of background in software development. RedwoodJS is a full-stack framework that comes with a lot of technologies out of the box. There is a learning curve, but that doesn't last.",
+					"**Who was the speaker? What experience did this person have?**",
+					"Adam Juran has been 'building stuff on the web' since 1998. He's a self-taught developer with 25 years of experience as an internet consultant and founded Juranosaurus Techs in 2021.",
+					"**Was this technical?**",
+					"There was a bit of information about RedwoodJS and it's content, but then Mr. Juran created a simple blog post app and it became a more technical. I liked this part, because it actually shows RedwoodJS in action.",
+					"**What did you learn?**",
+					"I've learned a lot. I haven't heard of RedwoodJS before this event. RedwoodJS let's you use the CLI a lot and it generates code automatically with just a few commands. ",
+					"**Did you ever come into contact with this topic inside the education?**",
+					"I haven't heard of RedwoodJS yet, but we've worked with Laravel, a full stack framework, in Howest. The difference here is that RedwoodJS uses new technology, such as React, Prisma, ... Laravel doesn't.",
+					"**Would you recommend this to other students?**",
+					"I would recommend learning about Flutter to any software developer, but this is not very useful for AI developers."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Conclusion",
+				"body": [
+					"In conclusion, RedwoodJS emerges as a powerful framework for web development, streamlining the process and accelerating the creation of dynamic applications. With its CLI and pre-built tools, RedwoodJS offers a seamless experience for developers to focus on business logic, rather than boilerplate code. RedwoodJS is a game-changer, and I look forward to exploring it further."
+				]
+			}
+		],
+		"date": "14-11-2023",
+		"imageSrc": "/assets/images/events/unveiling-redwoodjs-streamlining-web-development-2023.png",
+		"linkTo": "/events/unveiling-redwoodjs-streamlining-web-development-2023"
+	},
+	{
+		"id": "the-hidden-benefits-of-flutter-fré-dumazy-2023",
+		"name": "The hidden benefits of Flutter from Fré Dumazy - 2023",
+		"descriptionShort": "Fré Dumazy is a software developer since 2012, founder of Skystone Apps and he will tell us about the hidden benefits of Flutter.",
+		"content": [
+			{
+				"type": "section",
+				"title": "Introduction",
+				"body": [
+					"Flutter is an open-source UI software development toolkit by Google, enabling the creation of natively compiled applications for mobile, web, and desktop from a single codebase. Its expressive and flexible framework allows developers to craft visually appealing and high-performance apps with a seamless user experience. The speaker of this event, Fré Dumazy, will tell us more about Flutter and why we should use it."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Flutter: The Basics",
+				"body": [
+					"Flutter, Google's open-source UI toolkit, relies on the powerful Dart language as its secret sauce. Dart boasts the ability to compile to native code or JavaScript, offering both Ahead-of-Time (AOT) and Just-in-Time (JIT) compilation. This type-safe language provides developers with a rich array of libraries for crafting seamless applications."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Flutter has Developers In Mind",
+				"body": [
+					"Designed with developers in mind, Dart introduces a game-changer—stateful hot-reloading. This means that simple UI changes no longer necessitate restarting the entire application, streamlining the development process and enhancing efficiency. Additionally, Dart's rich set of libraries, including the Material Design library, enables developers to create visually appealing applications with ease."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Open Source: The Power of Collaboration",
+				"body": [
+					"In the world of Flutter, the possibilities are vast, and the best part? It's all open source, fostering a collaborative environment for innovation and creativity. Explore the magic of Flutter and Dart, where one language unlocks the door to multi-platform app development."
+				]
+			},
+			{
+				"type": "section",
+				"title": "General Information about the guest lesson",
+				"body": [
+					"**Is this an event that comes back weekly/yearly? How long did it last?**",
+					"This is not an event that comes back weekly or yearly. This event was at Howest and about 1h long.",
+					"**Who is the target audience?**",
+					"The target audience is mainly for software engineers, but as a student in the AI major, I found it important to know about Flutter. I'm also interested in Software Development and I would now want to create some Flutter projects.",
+					"**Who was the speaker? What experience did this person have?**",
+					"Fré Dumazy is an app developer since 2012. He's the founder of Skystone Apps, which is an IT Consulancy agency.",
+					"**Was this technical?**",
+					"This might be a bit technical in comparison with someone that doesn't know how to code, but this is not that technical to someone that knows the programming jargon. Fré showed some code which became a bit more technical, because I haven't see Flutter code, yet.",
+					"**What did you learn?**",
+					"I've learned that flutter might actually be a good programming language. Flutter can be used for nearly everything. You don't need to learn Kotlin (Android only), or Swift (iOS) only, you can learn Flutter, because it's multi-platform.",
+					"**Did you ever come into contact with this topic inside the education?**",
+					"We don't have any app development in the AI group, but I've heard about Flutter when studying software development on my own time.",
+					"**Would you recommend this to other students?**",
+					"I would recommend learning about Flutter to any software developer, but this is not very useful for AI developers."
+				]
+			},
+			{
+				"type": "section",
+				"title": "Conclusion",
+				"body": [
+					"In conclusion, the exploration of Flutter and Dart revealed a dynamic duo for versatile app development. Fré Dumazy's insightful session showcased the power of Flutter's open-source framework and Dart's efficiency. For aspiring developers, it's a gateway to multi-platform mastery, making it a worthwhile addition to any coding repertoire."
+				]
+			}
+		],
+		"date": "14-11-2023",
+		"imageSrc": "/assets/images/events/the-hidden-benefits-of-flutter-fré-dumazy-2023.png",
+		"linkTo": "/events/the-hidden-benefits-of-flutter-fré-dumazy-2023"
+	},
+	{
 		"id": "the-creation-of-this-site",
 		"name": "The Creation Of This Site",
 		"descriptionShort": "Creating a portfolio website is a journey of self-discovery, a process of weaving together a tapestry of skills and experiences. Let me take you on a tour of my journey, from the initial spark of inspiration to the final product.",
