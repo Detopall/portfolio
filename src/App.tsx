@@ -6,8 +6,8 @@ import Projects from "./components/pages/Projects";
 import About from "./components/pages/About";
 import SingleProject from "./components/pages/SingleProject";
 import CategoryProjects from "./components/pages/CategoryProjects";
-import Events from "./components/pages/Events";
-import SingleEvent from "./components/pages/SingleEvent";
+import SingleBlog from "./components/pages/SingleBlog";
+import Blogs from "./components/pages/Blogs";
 
 export interface IProjectContainer {
 	"software-development": IProject[];
@@ -29,17 +29,17 @@ export interface IProject {
 	youtubeLink?: string;
 }
 
-export interface IEvent {
+export interface IBlog {
 	id: string;
 	name: string;
 	descriptionShort: string;
-	content: IEventContent[];
+	content: IBlogContent[];
 	date: string;
 	imageSrc: string;
 	linkTo: string;
 }
 
-export interface IEventContent {
+export interface IBlogContent {
 	type: string;
 	title?: string;
 	body?: string[];
@@ -58,8 +58,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/experience" element={<Experience />} />
-				<Route path="/events" element={<Events />} />
-				<Route path="/events/:eventId" element={<SingleEvent />} />
+				<Route path="/blogs" element={<Blogs />} />
+				<Route path="/blogs/:blogId" element={<SingleBlog />} />
 				<Route path="/projects" element={<CategoryProjects />} />
 				<Route path="/projects/:categoryId" element={<Projects />} />
 				<Route

@@ -37,8 +37,8 @@ function Nav() {
 						</Link>
 					</li>
 					<li>
-						<Link to="/events" onClick={toggleNav}>
-							Events
+						<Link to="/blogs" onClick={toggleNav}>
+							Blogs
 						</Link>
 					</li>
 					<li>

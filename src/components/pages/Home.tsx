@@ -18,7 +18,7 @@ function Home() {
 				</span>
 				and
 				<span className="hero-span">
-					<Link to="/events">Events</Link>
+					<Link to="/blogs">Blogs</Link>
 				</span>
 				or learn more
 				<span className="hero-span">
