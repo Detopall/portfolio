@@ -33,16 +33,9 @@ export interface IBlog {
 	id: string;
 	name: string;
 	descriptionShort: string;
-	content: IBlogContent[];
 	date: string;
 	imageSrc: string;
 	linkTo: string;
-}
-
-export interface IBlogContent {
-	type: string;
-	title?: string;
-	body?: string[];
 }
 
 export interface IDevImg {

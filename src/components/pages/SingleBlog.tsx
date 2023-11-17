@@ -1,44 +1,39 @@
 import { useParams } from "react-router-dom";
-import blogsData from "../blogs-data.json";
+import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
 import ErrorMessage from "../ErrorMessage";
 import GoBackButton from "../GoBackButton";
 
-function convertMarkdownToHTML(text: string) {
-	return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-}
-
 function SingleBlog() {
 	const { blogId } = useParams();
-	const singleBlog = blogsData.find((blog) => blog.id === blogId);
+	const [markdownContent, setMarkdownContent] = useState<string | null>(null);
+
+	useEffect(() => {
+		const fetchMarkdownContent = async () => {
+			try {
+				// Assuming the Markdown files are named the same as blogId with ".md" extension
+				const response = await fetch(`/assets/markdown-blogs/${blogId}.md`);
+				const content = await response.text();
+				setMarkdownContent(content);
+			} catch (error) {
+				console.error("Error fetching Markdown content:", error);
+				setMarkdownContent(null);
+			}
+		};
+
+		fetchMarkdownContent();
+	}, [blogId]);
 
 	return (
 		<>
 			<GoBackButton />
-			{(singleBlog && (
+			{markdownContent !== null ? (
 				<div className="single-blog-container">
-					<h2>{singleBlog.name}</h2>
-					<span className="single-blog-date">{singleBlog.date}</span>
-					<div className="single-blog-image-container">
-						<img src={singleBlog.imageSrc} alt={singleBlog.name} />
-					</div>
-					<div className="single-blog-content">
-						{singleBlog.content.map((section, index) => (
-							<div key={index}>
-								{section.type === "section" && (
-									<>
-										<h3>{section.title}</h3>
-										{section.body.map((paragraph, pIndex) => (
-											<p key={pIndex} dangerouslySetInnerHTML={{ __html: convertMarkdownToHTML(paragraph) }} />
-										))}
-									</>
-								)}
-							</div>
-						))}
-					</div>
+					<ReactMarkdown className={"single-blog-markdown"}>{markdownContent}</ReactMarkdown>
 				</div>
-			)) || (
-					<ErrorMessage message="This blogId doesn't exist. Try again with another blog." />
-				)}
+			) : (
+				<ErrorMessage message="Error loading blog content. Please try again later." />
+			)}
 		</>
 	);
 }
