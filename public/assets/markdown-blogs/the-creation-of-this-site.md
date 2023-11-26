@@ -25,3 +25,12 @@ And when it came to sharing my creation with the world, Firebase took the stage.
 ## Conclusion
 
 I had a blast crafting my portfolio website, and I hope you enjoy exploring it as much as I enjoyed creating it! This is still a work in progress, and I look forward to adding more content and features in the future.
+
+## Sources
+
+[Vite](https://vitejs.dev/)
+[React](https://reactjs.org/)
+[Firebase](https://firebase.google.com/)
+[Markdown Parser](https://www.npmjs.com/package/react-markdown)
+[Markdown](https://www.markdownguide.org/)
+[JSON](https://www.json.org/json-en.html)

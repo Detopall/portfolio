@@ -1,5 +1,13 @@
 [
 	{
+		"id": "how-artificial-intelligence-can-improve-healthcare-2023",
+		"name": "How Artificial Intelligence Can Improve Healthcare - Dr. Nigam Shah 2023",
+		"descriptionShort": "Dr. Nigam Shah is an Associate Professor of Medicine (Biomedical Informatics) at Stanford University, and he will tell us about how Artificial Intelligence can improve healthcare.",
+		"date": "26-11-2023",
+		"imageSrc": "/assets/images/blogs/how-artificial-intelligence-can-improve-healthcare-2023.png",
+		"linkTo": "/blogs/how-artificial-intelligence-can-improve-healthcare-2023"
+	},
+	{
 		"id": "exploiting-ai-generated-code-snyk-2023",
 		"name": "Exploiting AI-Generated Code - Snyk 2023",
 		"descriptionShort": "Simon Maple (Head of AI advocacy) and Sonya Patch (Senior Security Advocate) created together a presentation about AI-Generated code and how to exploit it. They used ChatGPT and Co-Pilot to generate code and by the help of Snyk, they were able to find vulnerabilities in the code.",

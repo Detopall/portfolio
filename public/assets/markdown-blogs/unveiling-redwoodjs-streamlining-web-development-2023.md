@@ -51,3 +51,9 @@ I would recommend learning about Flutter to any software developer, but this is 
 ## Conclusion
 
 In conclusion, RedwoodJS emerges as a powerful framework for web development, streamlining the process and accelerating the creation of dynamic applications. With its CLI and pre-built tools, RedwoodJS offers a seamless experience for developers to focus on business logic, rather than boilerplate code. RedwoodJS is a game-changer, and I look forward to exploring it further.
+
+## Sources
+
+[RedwoodJS](https://redwoodjs.com/)
+[Adam Juran](https://be.linkedin.com/in/adamjuran)
+[Juranosaurus Techs](https://www.juranosaurustechs.com/)

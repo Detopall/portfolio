@@ -69,3 +69,7 @@ I would recommend this to other students, because it is important to know the ba
 ## Conclusion
 
 In conclusion, Hendrik Manhaeve's insights provide a comprehensive guide to enhancing User Experience in digital platforms. By focusing on aesthetics, usability, and thoughtful design choices, developers and designers can create applications, websites, and mobile apps that truly resonate with and serve their users.
+
+## Sources
+
+[Hendrik Manhaeve's LinkedIn](https://be.linkedin.com/in/hendrik-manhaeve-838b6213)

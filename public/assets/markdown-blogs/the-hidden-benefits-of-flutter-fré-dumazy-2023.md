@@ -53,3 +53,10 @@ I would recommend learning about Flutter to any software developer, but this is 
 ## Conclusion
 
 In conclusion, the exploration of Flutter and Dart revealed a dynamic duo for versatile app development. Fré Dumazy's insightful session showcased the power of Flutter's open-source framework and Dart's efficiency. For aspiring developers, it's a gateway to multi-platform mastery, making it a worthwhile addition to any coding repertoire.
+
+## Sources
+
+[Flutter](https://flutter.dev/)
+[Dart](https://dart.dev/)
+[Skystone Apps](https://skystoneapps.com/)
+[Fré Dumazy's LinkedIn](https://be.linkedin.com/in/dumazy)
