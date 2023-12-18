@@ -486,6 +486,18 @@ h1.hero-name {
 	font-weight: bold;
 }
 
+.single-blog-markdown a:hover {
+	color: var(--green);
+}
+
+.single-blog-container p:last-child {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
 /* About Styles */
 
 #about {
