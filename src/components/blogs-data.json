@@ -1,5 +1,13 @@
 [
 	{
+		"id": "unveiling-the-insights-social-data-science-student-hackathon-2023",
+		"name": "Unveiling the Insights: Social Data Science Student Hackathon 2023",
+		"descriptionShort": "A 3 day hackathon where 'The Turing Titans' (Victor Barra, Gaétan Vandenberge, and I) have battled against 99 other teams to try and win the first place. A hackathon organized by the Central European University (CEU).",
+		"date": "15-12-2023 until 18-12-2023",
+		"imageSrc": "/assets/images/blogs/unveiling-the-insights-social-data-science-student-hackathon-2023.png",
+		"linkTo": "/blogs/unveiling-the-insights-social-data-science-student-hackathon-2023"
+	},
+	{
 		"id": "how-artificial-intelligence-can-improve-healthcare-2023",
 		"name": "How Artificial Intelligence Can Improve Healthcare - Dr. Nigam Shah 2023",
 		"descriptionShort": "Dr. Nigam Shah is an Associate Professor of Medicine (Biomedical Informatics) at Stanford University, and he will tell us about how Artificial Intelligence can improve healthcare.",
