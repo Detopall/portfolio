@@ -111,10 +111,12 @@ h1.hero-name {
 	text-decoration: underline;
 }
 
-
 /* General Container Styles */
 
-.category-projects-container, .blogs-container, .about-container, .experience-container {
+.category-projects-container,
+.blogs-container,
+.about-container,
+.experience-container {
 	margin: 5rem 0;
 }
 
@@ -656,7 +658,8 @@ h1.hero-name {
 		flex-flow: column wrap;
 	}
 
-	.blogs-container .blog-description p, .blogs-container .blog-description span {
+	.blogs-container .blog-description p,
+	.blogs-container .blog-description span {
 		display: none;
 	}
 
