@@ -235,6 +235,41 @@
 				"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
 			},
 			{
+				"name": "BrainRotTok",
+				"id": "brain-rot-tok",
+				"descriptionShort": "BrainRotTok is a web application that allows users to create their very own TikTok videos with subtitles. There are different types of TikTok videos one can create. Check out the project to find out more.",
+				"descriptionLong": [
+					"BrainRotTok is a web application that allows users to create their very own TikTok videos with subtitles. ",
+					"Brain rot is a term used to describe the feeling of your brain rotting away after watching those highly addictive, short videos on TikTok. It is also used to describe the content that causes this feeling. Brain rot content is usually low effort, low quality, and highly addictive.",
+					"I kept seeing these videos on TikTok and I thought it would be fun to make a website that allows you to create these videos. I also wanted to use FFmpeg and OpenAI's Whisper API, so I thought this would be a good project to do that.",
+					"The web application is built using React on the client and Python (FastAPI) on the server. The user can upload videos, with or without their own subtitles, and the AI model will generate them for you.",
+					"Be sure to check out the project on Github to see the different types of videos you can create with their own example videos!"
+				],
+				"developmentStack": [
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+						"title": "React"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+						"title": "Python"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+						"title": "FastApi"
+					},
+					{
+						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+						"title": "Tensorflow"
+					}
+					
+				],
+				"imageSrc": "/assets/images/data-science/brain-rot-tok.png",
+				"linkTo": "/projects/data-science/brain-rot-tok",
+				"githubLink": "https://github.com/Detopall/BrainRotTok",
+				"youtubeLink": "https://www.youtube.com/embed/d6ouBFuNHX4"
+			},
+			{
 				"name": "Sentiment Prediction",
 				"id": "sentiment-prediction",
 				"descriptionShort": "The goal of this project is to build a model to classify the sentiment of a tweet (neutral, positive or negative).",
@@ -394,52 +429,6 @@
 				"linkTo": "/projects/data-science/stroke-prediction",
 				"githubLink": "https://github.com/Detopall/stroke-prediction",
 				"youtubeLink": "https://www.youtube.com/embed/FHZU1c1uE0Y"
-			},
-			{
-				"name": "Text Summary App",
-				"id": "text-summary-app",
-				"descriptionShort": "This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-				"descriptionLong": [
-					"This web application is a basic text summary implementation using transformers and NLP to summarize your text in one sentence. It uses a pre-trained model from HuggingFace.",
-					"The frontend is built using Javascript, CSS and HTML. The backend is built using RapidAPI.",
-					"Even though this text summary app uses a pre-trained model, it thought me a lot about how to use NLP and transformers."
-				],
-				"developmentStack": [
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-						"title": "HTML5"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-						"title": "JavaScript"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-						"title": "CSS3"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
-						"title": "Python"
-					},
-
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
-						"title": "FastApi"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-						"title": "Tensorflow"
-					},
-					{
-						"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-						"title": "Jupyter"
-					}
-				],
-				"imageSrc": "/assets/images/data-science/text-summary-app.png",
-				"linkTo": "/projects/data-science/text-summary-app",
-				"githubLink": "https://github.com/Detopall/DL-text-summary-app",
-				"youtubeLink": "https://www.youtube.com/embed/QgB0Qh-AGw8"
 			}
 		]
 	}
