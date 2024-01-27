@@ -5,7 +5,6 @@ import Experience from "./components/pages/Experience";
 import Projects from "./components/pages/Projects";
 import About from "./components/pages/About";
 import SingleProject from "./components/pages/SingleProject";
-import CategoryProjects from "./components/pages/CategoryProjects";
 import SingleBlog from "./components/pages/SingleBlog";
 import Blogs from "./components/pages/Blogs";
 
@@ -53,8 +52,7 @@ function App() {
 				<Route path="/experience" element={<Experience />} />
 				<Route path="/blogs" element={<Blogs />} />
 				<Route path="/blogs/:blogId" element={<SingleBlog />} />
-				<Route path="/projects" element={<CategoryProjects />} />
-				<Route path="/projects/:categoryId" element={<Projects />} />
+				<Route path="/projects" element={<Projects />} />
 				<Route
 					path="/projects/:categoryId/:projectId"
 					element={<SingleProject />}
