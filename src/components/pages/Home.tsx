@@ -9,7 +9,7 @@ function Home() {
 			</p>
 			<p className="hero-description">
 				Be sure to check out my
-				<span className="hero-span"> 
+				<span className="hero-span first-hero-span"> 
 					<Link to="/experience">Experience</Link>
 				</span>
 				,
