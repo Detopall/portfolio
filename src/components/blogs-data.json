@@ -1,5 +1,13 @@
 [
 	{
+		"id": "ai-and-bio-with-pieter-coussement-2024",
+		"name": "AI and Bio with Pieter Coussement - 2024",
+		"descriptionShort": "Pieter Coussement is a bioinformatician, data scientist at ML6 and also my mentor during my internship. I had the opportunity together with Victor Barra to have him on a podcast to talk about AI and Bioinformatics.",
+		"date": "21-03-2024",
+		"imageSrc": "/assets/images/blogs/ai-and-bio-with-pieter-coussement-2024.png",
+		"linkTo": "/blogs/ai-and-bio-with-pieter-coussement-2024"
+	},
+	{
 		"id": "unveiling-the-insights-social-data-science-student-hackathon-2023",
 		"name": "Unveiling the Insights: Social Data Science Student Hackathon 2023",
 		"descriptionShort": "A 3 day hackathon where 'The Turing Titans' (Victor Barra, Gaétan Vandenberge, and I) have battled against 99 other teams to try and win the first place. A hackathon organized by the Central European University (CEU).",

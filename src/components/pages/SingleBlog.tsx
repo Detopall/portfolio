@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import ErrorMessage from "../ErrorMessage";
 import GoBackButton from "../GoBackButton";
+import rehypeRaw from "rehype-raw";
 
 function SingleBlog() {
 	const { blogId } = useParams();
@@ -29,7 +30,7 @@ function SingleBlog() {
 			<GoBackButton />
 			{markdownContent !== null ? (
 				<div className="single-blog-container">
-					<ReactMarkdown className={"single-blog-markdown"}>{markdownContent}</ReactMarkdown>
+					<ReactMarkdown rehypePlugins={[rehypeRaw]} className={"single-blog-markdown"}>{markdownContent}</ReactMarkdown>
 				</div>
 			) : (
 				<ErrorMessage message="Error loading blog content. Please try again later." />
