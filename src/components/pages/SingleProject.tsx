@@ -50,7 +50,9 @@ function SingleProject() {
 		return <ErrorMessage message="Project not found" />;
 	}
 
-	const demoAvailable = project.demoLink ? <div className="pulse-big"></div> : null;
+	// @ts-ignore
+	const projectDemoLink = project.demoLink;
+	const demoAvailable = projectDemoLink ? <div className="pulse-big"></div> : null;
 
 	return (
 		<>
@@ -90,10 +92,10 @@ function SingleProject() {
 						<button>Github Project</button>
 					</a>
 				</div>
-				{project.demoLink && (
+				{projectDemoLink && (
 					<div className="single-project-github-container">
 						<a
-							href={project.demoLink}
+							href={projectDemoLink}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
