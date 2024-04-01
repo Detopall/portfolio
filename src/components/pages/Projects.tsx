@@ -64,6 +64,7 @@ function Projects() {
 						descriptionShort={project.descriptionShort}
 						imageSrc={project.imageSrc}
 						linkTo={project.linkTo}
+						demoLink={project.demoLink}
 					/>
 				))}
 			</div>

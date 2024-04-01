@@ -232,6 +232,7 @@
 				"imageSrc": "/assets/images/data-science/handwriting-hiragana-quiz.png",
 				"linkTo": "/projects/data-science/handwriting-hiragana-quiz",
 				"githubLink": "https://github.com/Detopall/handwriting-hiragana",
+				"demoLink": "https://huggingface.co/spaces/DenisT/hiragana-handwriting-app",
 				"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
 			},
 			{
@@ -267,6 +268,7 @@
 				"imageSrc": "/assets/images/data-science/brain-rot-tok.png",
 				"linkTo": "/projects/data-science/brain-rot-tok",
 				"githubLink": "https://github.com/Detopall/BrainRotTok",
+				"demoLink": "https://huggingface.co/spaces/DenisT/brain-rot-tok",
 				"youtubeLink": "https://www.youtube.com/embed/d6ouBFuNHX4"
 			},
 			{

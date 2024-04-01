@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import jsonProjects from "../project-data.json";
-import { IProject, IDevImg } from "../../App";
+import { IDevImg, IProject } from "../../App";
 import { useEffect, useState } from "react";
 import ErrorMessage from "../ErrorMessage";
 import GoBackButton from "../GoBackButton";
@@ -50,11 +50,13 @@ function SingleProject() {
 		return <ErrorMessage message="Project not found" />;
 	}
 
+	const demoAvailable = project.demoLink ? <div className="pulse-big"></div> : null;
+
 	return (
 		<>
 			<GoBackButton />
 			<div className="single-project">
-				<h1>{project.name}</h1>
+				<h1>{project.name}{demoAvailable}</h1>
 				<img
 					src={project.imageSrc}
 					title={project.name}
@@ -88,6 +90,17 @@ function SingleProject() {
 						<button>Github Project</button>
 					</a>
 				</div>
+				{project.demoLink && (
+					<div className="single-project-github-container">
+						<a
+							href={project.demoLink}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<button>Live Demo</button>
+						</a>
+					</div>
+				)}
 				{isSmallScreen ? (
 					<div className="single-project-video">
 						<a

@@ -26,6 +26,7 @@ export interface IProject {
 	linkTo: string;
 	githubLink?: string;
 	youtubeLink?: string;
+	demoLink?: string;
 }
 
 export interface IBlog {
