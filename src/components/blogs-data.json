@@ -1,5 +1,13 @@
 [
 	{
+		"id": "blockchain-and-ai-howest-hackathon-2024",
+		"name": "Blockchain and AI Howest Hackathon 2024",
+		"descriptionShort": "Decentralized Autonomous Hackathon (DAH) is a hackathon organized by Howest. This 24h hackathon is about creating a decentralized application using blockchain and AI.",
+		"date": "20-04-2024",
+		"imageSrc": "/assets/images/blogs/blockchain-and-ai-hackathon-2024.png",
+		"linkTo": "/blogs/blockchain-and-ai-howest-hackathon-2024"
+	},
+	{
 		"id": "ai-and-bio-with-pieter-coussement-2024",
 		"name": "AI and Bio with Pieter Coussement - 2024",
 		"descriptionShort": "Pieter Coussement is a bioinformatician, data scientist at ML6 and also my mentor during my internship. I had the opportunity together with Victor Barra to have him on a podcast to talk about AI and Bioinformatics.",

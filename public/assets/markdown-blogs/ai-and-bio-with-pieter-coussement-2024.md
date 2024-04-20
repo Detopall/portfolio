@@ -32,7 +32,7 @@ This podcast was very interesting and I learned a lot from it. I would recommend
 
 ## Sources
 
-- [ML6](https://ml6.eu/)
-- [Pieter Coussement](https://www.linkedin.com/in/pietercoussement/)
-- [Spotify Podcast](https://podcasters.spotify.com/pod/show/howest/episodes/AI-and-Bio-Tech-with-Pieter-Coussement-e2hcmc4)
-- [Howest](https://www.howest.be/)
+[ML6](https://ml6.eu/)
+[Pieter Coussement](https://www.linkedin.com/in/pietercoussement/)
+[Spotify Podcast](https://podcasters.spotify.com/pod/show/howest/episodes/AI-and-Bio-Tech-with-Pieter-Coussement-e2hcmc4)
+[Howest](https://www.howest.be/)
