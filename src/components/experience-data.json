@@ -49,10 +49,6 @@
 		{
 			"name": "Vue.js",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
-		},
-		{
-			"name": "TensorFlow",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg"
 		}
 	],
 	"databases": [
@@ -79,10 +75,6 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
 		},
 		{
-			"name": "Jupyter",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
-		},
-		{
 			"name": "Firebase",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
 		},
@@ -95,24 +87,8 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg"
 		},
 		{
-			"name": "JetBrains",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg"
-		},
-		{
-			"name": "Kaggle",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original-wordmark.svg"
-		},
-		{
 			"name": "Linux",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-		},
-		{
-			"name": "Markdown",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg"
-		},
-		{
-			"name": "npm",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
 		},
 		{
 			"name": "Raspberry Pi",
