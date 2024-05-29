@@ -1,5 +1,13 @@
 [
 	{
+		"id": "internship-2024",
+		"name": "Internship 2024 - ML6",
+		"descriptionShort": "I had the opportunity to do my internship at ML6, a company that specializes in AI and Machine Learning. I worked on a project that involved creating a pipeline for feature extraction of protein sequences using Fondant",
+		"date": "12-02-2024 until 24-05-2024",
+		"imageSrc": "/assets/images/blogs/internship-2024.png",
+		"linkTo": "/blogs/internship-2024"
+	},
+	{
 		"id": "blockchain-and-ai-howest-hackathon-2024",
 		"name": "Blockchain and AI Howest Hackathon 2024",
 		"descriptionShort": "Decentralized Autonomous Hackathon (DAH) is a hackathon organized by Howest. This 24h hackathon is about creating a decentralized application using blockchain and AI.",
