@@ -50,35 +50,36 @@
         "youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
       },
       {
-        "name": "VideoStreamTube",
-        "id": "video-stream-tube",
-        "descriptionShort": "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for videos and watch them. It also has a dark mode feature.",
+        "name": "Manga Logger",
+        "id": "manga-logger",
+        "descriptionShort": "Manga Logger is a mobile app that allows you to keep track of your manga. You can create accounts, favorite manga, scan your physical manga using the barcode scanner and much more.",
         "descriptionLong": [
-          "Using an API from RapidAPI I was able to create a video streaming website. This website allows you to search for YouTube videos and watch them. It also has a dark mode feature.",
-          "This project thought me about React and the uses of dynamic routes. It also thought me about how to use an API with best practices in React."
+          "I love reading manga and buying physical volumes. With this comes the issue of keeping track of all your manga when you want to buy the next volume.",
+          "I could've just created a website and called it a day, but I wanted to create something that was more than just a website. I've never tried to create a mobile app, so this was the perfect opportunity.",
+          "Manga Logger is a mobile app that allows you to keep track of your manga. You can create accounts, favorite manga, scan your physical manga using the barcode scanner and much more.",
+          "I didn't want to annoy users with the task of creating accounts, sending confirmation mails ... In Manga Logger, you just fill in a username and you're good. Each username will keep track of its own favorite manga",
+          "If you have physical volumes of your manga, you can scan their barcode using the barcode scanner. The profile section presents your favorite manga, together with some stats about the categories of your manga.",
+          "The app was made using Flutter with Dart (see blog post) and a SQLite database.",
+          "Be sure to check out the project on Github or watch the video below for a demo."
         ],
         "developmentStack": [
           {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-            "title": "React"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+            "title": "Flutter"
           },
           {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-            "title": "Typescript"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+            "title": "Dart"
           },
           {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            "title": "CSS3"
-          },
-          {
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-            "title": "HTML5"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+            "title": "SQLite"
           }
         ],
-        "imageSrc": "/assets/images/software-development/video-stream-tube.png",
-        "linkTo": "/projects/software-development/video-stream-tube",
-        "githubLink": "https://github.com/Detopall/video-stream-tube",
-        "youtubeLink": "https://www.youtube.com/embed/_Rhz2CDN5Bo"
+        "imageSrc": "/assets/images/software-development/manga-logger.png",
+        "linkTo": "/projects/software-development/manga-logger",
+        "githubLink": "https://github.com/Detopall/manga-logger",
+        "youtubeLink": "https://www.youtube.com/embed/VRgmvnCCzbQ"
       },
       {
         "name": "Github/Gitlab Issue Board",
