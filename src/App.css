@@ -227,11 +227,21 @@ h1.hero-name {
 
 .projects-container {
 	display: grid;
-	grid-template-columns: repeat(3, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	justify-items: center;
-	margin: 2rem 15rem;
-	gap: 5rem;
+	row-gap: 5rem;
+	column-gap: 2rem;
+	max-width: 100%;
+	margin: 2rem auto;
 }
+
+/* max 3 on screen at 1200px */
+@media (min-width: 1200px) {
+	.projects-container {
+		grid-template-columns: repeat(3, minmax(300px, 1fr));
+	}
+}
+
 
 .projects-container a {
 	text-decoration: none;
@@ -273,7 +283,7 @@ h1.hero-name {
 }
 
 .project-img {
-	width: 100%;
+	width: 15rem;
 	height: 15rem;
 	display: flex;
 	align-items: center;
