@@ -157,21 +157,21 @@ h1.hero-name {
 }
 
 .experience-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 20px auto;
-    border: 2px solid #111;
-    background: white;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 1rem;
-    z-index: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px auto;
+	border: 2px solid #111;
+	background: white;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border-radius: 1rem;
+	z-index: 1;
 }
 
 .experience-item:hover {
@@ -180,8 +180,8 @@ h1.hero-name {
 }
 
 .experience-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	transform: translateY(-10px);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .experience-item img {
@@ -227,10 +227,10 @@ h1.hero-name {
 
 .projects-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(3, minmax(300px, 1fr));
 	justify-items: center;
-	margin: 2rem;
-	gap: 3.5rem;
+	margin: 2rem 15rem;
+	gap: 5rem;
 }
 
 .projects-container a {
@@ -247,7 +247,8 @@ h1.hero-name {
 	color: white;
 	padding: 1rem;
 	border-radius: 8px;
-	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out,
+		color 0.2s ease-in-out;
 	height: 100%;
 }
 
@@ -309,7 +310,8 @@ h1.hero-name {
 	background-color: #555;
 }
 
-.pulse-small, .pulse-big {
+.pulse-small,
+.pulse-big {
 	display: inline-block;
 	border-radius: 50%;
 	background-color: rgb(255, 49, 49);
@@ -328,7 +330,8 @@ h1.hero-name {
 }
 
 @keyframes pulse {
-	0%, 100% {
+	0%,
+	100% {
 		transform: scale(0.8);
 	}
 	50% {
