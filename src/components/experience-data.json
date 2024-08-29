@@ -5,12 +5,12 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
 		},
 		{
-			"name": "JavaScript",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-		},
-		{
 			"name": "CSS3",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+		},
+		{
+			"name": "JavaScript",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
 		},
 		{
 			"name": "TypeScript",
@@ -47,8 +47,12 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
 		},
 		{
-			"name": "Vue.js",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+			"name": "Flutter",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+		},
+		{
+			"name": "FastAPI",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg"
 		}
 	],
 	"databases": [
@@ -75,28 +79,12 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
 		},
 		{
-			"name": "Firebase",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
-		},
-		{
-			"name": "GitHub",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-		},
-		{
-			"name": "GitLab",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg"
-		},
-		{
 			"name": "Linux",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
 		},
 		{
 			"name": "Raspberry Pi",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg"
-		},
-		{
-			"name": "Visual Studio Code",
-			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
 		},
 		{
 			"name": "Windows",

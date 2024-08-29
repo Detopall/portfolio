@@ -1,48 +1,87 @@
-import technologiesData from '../experience-data.json';
+import technologiesData from "../experience-data.json";
 
 function Experience() {
-
 	return (
 		<section className="experience-container">
 			<h2>Experience</h2>
 			<div className="experience-content">
 				<div className="experience-info">
 					<p>
-						These are most of the technologies, languages, frameworks,
-						databases ... that I have experience in.
+						As a student at University of Gent, I have gained experience in
+						various programming languages, frameworks, databases and tools.
 					</p>
 					<p>
-						I also have a bachelors degree in Applied Computer Science
-						with a major in AI.
+						I have obtained a bachelor's degree in Applied Computer Science and
+						I'm currently pursuing a master's degree in Computer Science.
+					</p>
+					<p>
+						The following are some of the technologies I have experience with.
+						In the 'Projects' section you can view some of my projects where I used them.
 					</p>
 				</div>
 
-				<h3>Languages</h3>
-				<div className="languages-experience">
-					{technologiesData.languages.map((language, index) => (
-						<img key={index} src={language.image} title={language.name} />
-					))}
+				{/* Languages */}
+				<div className="experience-category">
+					<h3>Languages</h3>
+					<div className="experience-grid">
+						{technologiesData.languages.map((language, index) => (
+							<div key={index} className="experience-item">
+								<img
+									src={language.image}
+									alt={language.name}
+									title={language.name}
+								/>
+								<span>{language.name}</span>
+							</div>
+						))}
+					</div>
 				</div>
 
-				<h3>Frameworks and Libraries</h3>
-				<div className="languages-experience">
-					{technologiesData.frameworksAndLibraries.map((framework, index) => (
-						<img key={index} src={framework.image} title={framework.name} />
-					))}
+				{/* Frameworks and Libraries */}
+				<div className="experience-category">
+					<h3>Frameworks and Libraries</h3>
+					<div className="experience-grid">
+						{technologiesData.frameworksAndLibraries.map((framework, index) => (
+							<div key={index} className="experience-item">
+								<img
+									src={framework.image}
+									alt={framework.name}
+									title={framework.name}
+								/>
+								<span>{framework.name}</span>
+							</div>
+						))}
+					</div>
 				</div>
 
-				<h3>Databases</h3>
-				<div className="languages-experience">
-					{technologiesData.databases.map((database, index) => (
-						<img key={index} src={database.image} title={database.name} />
-					))}
+				{/* Databases */}
+				<div className="experience-category">
+					<h3>Databases</h3>
+					<div className="experience-grid">
+						{technologiesData.databases.map((database, index) => (
+							<div key={index} className="experience-item">
+								<img
+									src={database.image}
+									alt={database.name}
+									title={database.name}
+								/>
+								<span>{database.name}</span>
+							</div>
+						))}
+					</div>
 				</div>
 
-				<h3>Tools</h3>
-				<div className="languages-experience">
-					{technologiesData.tools.map((tool, index) => (
-						<img key={index} src={tool.image} title={tool.name} />
-					))}
+				{/* Tools */}
+				<div className="experience-category">
+					<h3>Tools</h3>
+					<div className="experience-grid">
+						{technologiesData.tools.map((tool, index) => (
+							<div key={index} className="experience-item">
+								<img src={tool.image} alt={tool.name} title={tool.name} />
+								<span>{tool.name}</span>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</section>
