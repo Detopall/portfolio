@@ -260,6 +260,10 @@ h1.hero-name {
 	transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out,
 		color 0.2s ease-in-out;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .project:hover {
@@ -276,14 +280,13 @@ h1.hero-name {
 }
 
 .project-description {
-	flex-basis: 100%;
 	padding: 1rem;
 	font-size: 0.9rem;
 	line-height: 1.5;
 }
 
 .project-img {
-	width: 15rem;
+	width: 80%;
 	height: 15rem;
 	display: flex;
 	align-items: center;
@@ -368,7 +371,15 @@ h1.hero-name {
 	margin-bottom: 2rem;
 	width: 640px;
 	max-width: 480px;
+	border-radius: 0.5rem;
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+	box-shadow: 0 1rem 5rem 0.5rem rgba(152, 152, 152, 0.2);
+	margin-bottom: 1rem;
 }
+
+
 
 .single-project-main-img img {
 	width: 100%;
