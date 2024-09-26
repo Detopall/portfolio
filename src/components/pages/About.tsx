@@ -42,7 +42,7 @@ function About() {
 
 				{pdfLink ? (
 					<a href={pdfLink} target="_blank">
-						<img src="https://img.shields.io/badge/CV-red?style=for-the-badge&logo=microsoftword&logoColor=white" />
+						<img src="https://img.shields.io/badge/CV-white?logo=google-docs&logoColor=red" />
 					</a>
 				) : (
 					<div>PDF Loading ... </div>
