@@ -1,0 +1,221 @@
+[
+	{
+		"name": "BrainRotTok",
+		"id": "brain-rot-tok",
+		"description": [
+			"BrainRotTok is a web application that allows users to create their very own TikTok videos with subtitles. ",
+			"Brain rot is a term used to describe the feeling of your brain rotting away after watching those highly addictive, short videos on TikTok. It is also used to describe the content that causes this feeling. Brain rot content is usually low effort, low quality, and highly addictive.",
+			"I kept seeing these videos on TikTok and I thought it would be fun to make a website that allows you to create these videos. I also wanted to use FFmpeg and OpenAI's Whisper API, so I thought this would be a good project to do that.",
+			"The web application is built using React on the client and Python (FastAPI) on the server. The user can upload videos, with or without their own subtitles, and the AI model will generate them for you.",
+			"Be sure to check out the project on Github to see the different types of videos you can create with their own example videos!",
+			"This project is also live on Hugging Face Spaces. You can check it out by clicking the demo link below."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			}
+		],
+		"imageSrc": "/assets/projects/brain-rot-tok.png",
+		"githubLink": "https://github.com/Detopall/BrainRotTok",
+		"demoLink": "https://huggingface.co/spaces/DenisT/brain-rot-tok",
+		"youtubeLink": "https://www.youtube.com/embed/d6ouBFuNHX4"
+	},
+	{
+		"name": "Manga Translator",
+		"id": "manga-translator",
+		"description": [
+			"I love reading manga, and I can't wait for the next chapter of my favorite manga to be released. However, the newest chapters are usually in Japanese, and they are translated to English after some time. I want to read the newest chapters as soon as possible, so I decided to build a manga translator that can translate Japanese manga to English.",
+			"I want to translate the text in the manga images from Japanese to English. I will first need to know where these speech bubbles are on the image. For this I will use Yolov8 to detect the speech bubbles. Once I have the speech bubbles, I will use manga-ocr to extract the text from the speech bubbles. Finally, I will use deep-translator to translate the text from Japanese to English.",
+			"This project was inspired by my interest for manga. I wanted to create something that had a personal reason behind it, but that could also be useful for other people. I thought that creating a manga translator would be a fun project to work on.",
+			"This project is also live on Hugging Face Spaces. You can check it out by clicking the demo link below."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+				"title": "Jupyter"
+			}
+		],
+		"imageSrc": "/assets/projects/manga-translator.png",
+		"githubLink": "https://github.com/Detopall/manga-translator",
+		"demoLink": "https://huggingface.co/spaces/DenisT/manga-translator",
+		"youtubeLink": "https://www.youtube.com/embed/P0VZu4whrz4"
+	},
+	{
+		"name": "Crow Chirp",
+		"id": "crow-chirp",
+		"description": [
+			"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+			"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
+			"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+				"title": "Node.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+				"title": "Express.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
+				"title": "Handlebars"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+				"title": "MongoDB"
+			}
+		],
+		"imageSrc": "/assets/projects/crow-chirp.png",
+		"githubLink": "https://github.com/Detopall/twitter-clone",
+		"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
+	},
+	{
+		"name": "Manga Logger",
+		"id": "manga-logger",
+		"description": [
+			"I love reading manga and buying physical volumes. With this comes the issue of keeping track of all your manga when you want to buy the next volume.",
+			"I could've just created a website and called it a day, but I wanted to create something that was more than just a website. I've never tried to create a mobile app, so this was the perfect opportunity.",
+			"Manga Logger is a mobile app that allows you to keep track of your manga. You can create accounts, favorite manga, scan your physical manga using the barcode scanner and much more.",
+			"I didn't want to annoy users with the task of creating accounts, sending confirmation mails ... In Manga Logger, you just fill in a username and you're good. Each username will keep track of its own favorite manga",
+			"If you have physical volumes of your manga, you can scan their barcode using the barcode scanner. The profile section presents your favorite manga, together with some stats about the categories of your manga.",
+			"The app was made using Flutter with Dart (see blog post) and a SQLite database.",
+			"Be sure to check out the project on Github or watch the video below for a demo."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+				"title": "Flutter"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+				"title": "Dart"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+				"title": "SQLite"
+			}
+		],
+		"imageSrc": "/assets/projects/manga-logger.png",
+		"githubLink": "https://github.com/Detopall/manga-logger",
+		"youtubeLink": "https://www.youtube.com/embed/VRgmvnCCzbQ"
+	},
+	{
+		"name": "Handwriting Hiragana Quiz",
+		"id": "handwriting-hiragana-quiz",
+		"description": [
+			"This web app that uses a self-made deep learning model to recognize handwritten Hiragana (Japanese characters). The model was trained on a large dataset containing Hiragana characters. The app is built using React on the client and Python with FastApi on the server.",
+			"This application is a quiz, meaning that the user can choose between different Hiragana characters and write them down. The model will then predict the character and return the result to the user.",
+			"This project was inspired by my interest for the Japanese language and the Japanese culture (anime, manga, ...). I wanted to create something that would help me learn the Hiragana characters and I thought that creating a quiz would be a fun way to do it.",
+			"This project is also live on Hugging Face Spaces. You can check it out by clicking the demo link below."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+				"title": "Jupyter"
+			}
+		],
+		"imageSrc": "/assets/projects/handwriting-hiragana-quiz.png",
+		"githubLink": "https://github.com/Detopall/handwriting-hiragana",
+		"demoLink": "https://huggingface.co/spaces/DenisT/hiragana-handwriting-app",
+		"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
+	},
+	{
+		"name": "Github/Gitlab Issue Board",
+		"id": "issue-board",
+		"description": [
+			"This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
+			"The frontend is built using React and Typescript. The backend is built using FastApi and Python. The database is just a simple json file where the issues are stored.",
+			"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working issue board (POC). I would want to add those things later.",
+			"I also learned how to drag and drop elements with the built in HTML5 drag and drop API and I used the dialog tag in html."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+				"title": "Typescript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
+				"title": "Python"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
+				"title": "FastApi"
+			}
+		],
+		"imageSrc": "/assets/projects/issue-board.png",
+		"githubLink": "https://github.com/Detopall/issue-board",
+		"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
+	}
+]

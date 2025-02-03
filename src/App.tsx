@@ -1,66 +1,34 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Nav from "./components/Nav";
-import Experience from "./components/pages/Experience";
-import Projects from "./components/pages/Projects";
-import About from "./components/pages/About";
-import SingleProject from "./components/pages/SingleProject";
-import SingleBlog from "./components/pages/SingleBlog";
-import Blogs from "./components/pages/Blogs";
+import { useTheme } from "@/hooks/use-theme";
 
-export interface IProjectContainer {
-	"software-development": IProject[];
-	"data-science": IProject[];
-}
+import Hero from "@/pages/hero";
+import Experience from "@/pages/experience";
+import Projects from "@/pages/projects";
+import About from "@/pages/about";
+import { Switch } from "@heroui/switch";
 
-export interface IProject {
-	id: string;
-	name: string;
-	descriptionShort: string;
-	descriptionLong?: string[] | [];
-	developmentStack?: {
-		src: string | null;
-		title: string | null;
-	}[];
-	imageSrc: string;
-	linkTo: string;
-	githubLink?: string;
-	youtubeLink?: string;
-	demoLink?: string;
-}
-
-export interface IBlog {
-	id: string;
-	name: string;
-	descriptionShort: string;
-	date: string;
-	imageSrc: string;
-	linkTo: string;
-}
-
-export interface IDevImg {
-	src: string;
-	title: string;
-}
+import { MoonIcon, SunIcon } from "@/components/moonSunIcons";
 
 function App() {
-	return (
-		<div className="App">
-			<Nav />
+	const { theme, toggleTheme } = useTheme();
 
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/experience" element={<Experience />} />
-				<Route path="/blogs" element={<Blogs />} />
-				<Route path="/blogs/:blogId" element={<SingleBlog />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route
-					path="/projects/:categoryId/:projectId"
-					element={<SingleProject />}
-				/>
-				<Route path="/about" element={<About />} />
-			</Routes>
-		</div>
+	return (
+		<>
+			<main className={`green-${theme} text-foreground bg-background`}>
+				<div className="flex flex-col items-end py-4">
+					<Switch
+						defaultSelected
+						endContent={<MoonIcon />}
+						startContent={<SunIcon />}
+						onChange={toggleTheme}
+						size="lg"
+					/>
+				</div>
+				<Hero />
+				<Experience />
+				<Projects theme={theme}/>
+				<About />
+			</main>
+		</>
 	);
 }
 
