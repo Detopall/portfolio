@@ -46,7 +46,7 @@ export default function AboutPage() {
 	return (
 		<DefaultLayout>
 			<section className="flex flex-col items-center justify-center gap-8 py-12 md:py-16 max-w-4xl mx-auto px-4">
-				<h2 className={title({ size: "lg" })}>About Me</h2>
+				<h2 className={title({ size: "lg", underline: true })}>About Me</h2>
 				<div className="text-center space-y-4">
 					<p>
 						Hello there! I'm Denis Topallaj, an enthusiastic applied computer
