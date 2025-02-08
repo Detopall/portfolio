@@ -49,12 +49,12 @@ export default function AboutPage() {
 				<h2 className={title({ size: "lg", underline: true })}>About Me</h2>
 				<div className="text-center space-y-4">
 					<p>
-						Hello there! I'm Denis Topallaj, an enthusiastic applied computer
+						Hello there! I'm Denis Topallaj, an enthusiastic computer
 						science student with a keen passion for Software Engineering and AI.
 					</p>
 					<p>
-						Through my journey, I've crafted projects that not only showcase my
-						skills but also reflect my deep interest in these dynamic fields.
+						Throughout my journey, I've crafted projects that not only showcase my
+						skills but also reflect my deep understanding in these dynamic fields and personal interests.
 					</p>
 					<p>
 						I'm eager to connect with like-minded individuals, collaborate on

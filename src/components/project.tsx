@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Card, CardBody, CardFooter } from "@heroui/card";
 import { Button } from "@heroui/button";
+import GithubStarsComponent  from "./GithubStarsComponent";
 import {
 	Modal,
 	ModalContent,
@@ -47,15 +48,18 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 					/>
 				</CardBody>
 				<CardFooter className="absolute bottom-0 w-full bg-white/10 border border-white/20 py-2 px-3 rounded-b-lg flex flex-col items-start justify-between z-10">
-					{theme === "dark" ? (
-						<h4 className="[text-shadow:0px_0px_5px_rgba(0,0,0,0.9)] text-600 text-xl md:text-2xl font-extrabold">
-							{project.name}
-						</h4>
-					) : (
-						<h4 className="[text-shadow:0_0_5px_rgba(255,255,255,0.9)] text-600 text-xl md:text-2xl font-extrabold">
-							{project.name}
-						</h4>
-					)}
+					<div className="flex justify-between items-center w-full">
+						{theme === "dark" ? (
+							<h4 className="[text-shadow:0px_0px_5px_rgba(0,0,0,0.9)] text-600 text-xl md:text-2xl font-extrabold">
+								{project.name}
+							</h4>
+						) : (
+							<h4 className="[text-shadow:0_0_5px_rgba(255,255,255,0.9)] text-600 text-xl md:text-2xl font-extrabold">
+								{project.name}
+							</h4>
+						)}
+						<GithubStarsComponent repoUrl={project.githubLink} />
+					</div>
 
 					<div className="flex mt-2 space-x-2">
 						{project.developmentStack.map((tech, index) => (
@@ -77,10 +81,11 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 				<ModalContent className="max-h-[90vh] overflow-hidden">
 					{(onClose) => (
 						<>
-							<ModalHeader className="text-center border-b border-primary-200">
+							<ModalHeader className="flex flex-col items-center gap-5">
 								<h3 className="text-3xl font-extrabold text-primary-600 bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">
 									{project.name}
 								</h3>
+								<GithubStarsComponent repoUrl={project.githubLink} />
 							</ModalHeader>
 							<ModalBody className="overflow-y-auto">
 								<div className="flex flex-col items-center">

@@ -40,7 +40,7 @@ function Experience() {
 												className="w-20 h-20 object-contain"
 											/>
 										</div>
-										<p className="text-center">{item.name}</p>
+										<p className="text-center font-semibold">{item.name}</p>
 									</div>
 								</Tooltip>
 							))}
