@@ -62,52 +62,6 @@
 		"youtubeLink": "https://www.youtube.com/embed/P0VZu4whrz4"
 	},
 	{
-		"name": "Crow Chirp",
-		"id": "crow-chirp",
-		"description": [
-			"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
-			"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
-			"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
-		],
-		"developmentStack": [
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
-				"title": "Node.js"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
-				"title": "Express.js"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
-				"title": "Handlebars"
-			},
-
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
-				"title": "MongoDB"
-			}
-		],
-		"imageSrc": "/assets/projects/crow-chirp.png",
-		"githubLink": "https://github.com/Detopall/twitter-clone",
-		"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
-	},
-	{
 		"name": "Manga Logger",
 		"id": "manga-logger",
 		"description": [
@@ -174,13 +128,13 @@
 		"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
 	},
 	{
-		"name": "Github/Gitlab Issue Board",
-		"id": "issue-board",
+		"name": "TrackSplitter",
+		"id": "track-splitter",
 		"description": [
-			"This is a simple issue board that allows you to create, edit, delete and view issues. You can move the issue around based on the status of the issue.",
-			"The frontend is built using React and Typescript. The backend is built using FastApi and Python. The database is just a simple json file where the issues are stored.",
-			"This project thought me about the essentials of a project. I don't need user authentication, authorization, db ... to have a working issue board (POC). I would want to add those things later.",
-			"I also learned how to drag and drop elements with the built in HTML5 drag and drop API and I used the dialog tag in html."
+			"TrackSplitter allows you to separate the audio sources of a YouTube video (vocal, drums, bass, etc.) and present them in a web app with the possibility to download them as a zip file or individually.",
+			"The frontend is built using React, HeroUI and Typescript. The backend is built using FastApi and Python.",
+			"I don't really like listening to music. I like listening to the vocals of a song. Online tools that allow you to separate the audio sources exist, but they didn't work well or always try to get you to pay for their product.",
+			"So, I decided to create my own solution. This project s freely available on GitHub and it also has a Dockerfile so you can run it on your own devices."
 		],
 		"developmentStack": [
 			{
@@ -214,8 +168,54 @@
 				"title": "FastApi"
 			}
 		],
-		"imageSrc": "/assets/projects/issue-board.png",
-		"githubLink": "https://github.com/Detopall/issue-board",
-		"youtubeLink": "https://www.youtube.com/embed/D3Mz8vxSdmo"
+		"imageSrc": "/assets/projects/track-splitter.png",
+		"githubLink": "https://github.com/Detopall/TrackSplitter",
+		"youtubeLink": "https://www.youtube.com/embed/YjCT-ZbKaoY"
+	},
+	{
+		"name": "Crow Chirp",
+		"id": "crow-chirp",
+		"description": [
+			"This project is a Twitter Clone. It contains key features such as authentication, creating, liking and retweeting posts, commenting and deleting posts. You can also change your profile picture, search for specific posts or profiles.",
+			"The frontend is built using Javascript, CSS (Bootstrap) and HTML. The backend is built using Node.js with Express and Express Handlebars. MongoDB was used for the database.",
+			"Crow Chirp thought me a lot about session management, authentication, authorization, database management and much more. It was a great project to work on and I learned a lot from it."
+		],
+		"developmentStack": [
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+				"title": "HTML5"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+				"title": "JavaScript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+				"title": "CSS3"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+				"title": "Node.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+				"title": "Express.js"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original-wordmark.svg",
+				"title": "Handlebars"
+			},
+
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+				"title": "MongoDB"
+			}
+		],
+		"imageSrc": "/assets/projects/crow-chirp.png",
+		"githubLink": "https://github.com/Detopall/twitter-clone",
+		"youtubeLink": "https://www.youtube.com/embed/hQir822mva8"
 	}
 ]
