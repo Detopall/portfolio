@@ -53,6 +53,14 @@
 		{
 			"name": "FastAPI",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg"
+		},
+		{
+			"name": "Tensorflow",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+		},
+		{
+			"name": "PyTorch",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
 		}
 	],
 	"databases": [
@@ -67,6 +75,10 @@
 		{
 			"name": "Microsoft SQL Server",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+		},
+		{
+			"name": "PostgreSQL",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
 		}
 	],
 	"tools": [

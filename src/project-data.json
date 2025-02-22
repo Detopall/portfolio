@@ -26,6 +26,14 @@
 			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
 				"title": "Tensorflow"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+				"title": "Pytorch"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+				"title": "Docker"
 			}
 		],
 		"imageSrc": "/assets/projects/brain-rot-tok.png",
@@ -44,6 +52,10 @@
 		],
 		"developmentStack": [
 			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+				"title": "React"
+			},
+			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
 				"title": "Python"
 			},
@@ -52,8 +64,12 @@
 				"title": "FastApi"
 			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-				"title": "Jupyter"
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+				"title": "Pytorch"
 			}
 		],
 		"imageSrc": "/assets/projects/manga-translator.png",
@@ -118,8 +134,8 @@
 				"title": "Tensorflow"
 			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
-				"title": "Jupyter"
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+				"title": "Pytorch"
 			}
 		],
 		"imageSrc": "/assets/projects/handwriting-hiragana-quiz.png",
@@ -142,30 +158,24 @@
 				"title": "React"
 			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-				"title": "Typescript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-				"title": "JavaScript"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-				"title": "HTML5"
-			},
-			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-				"title": "CSS3"
-			},
-
-			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
 				"title": "Python"
 			},
-
 			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg",
 				"title": "FastApi"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+				"title": "Tensorflow"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+				"title": "Pytorch"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+				"title": "Docker"
 			}
 		],
 		"imageSrc": "/assets/projects/track-splitter.png",
@@ -198,7 +208,6 @@
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
 				"title": "Node.js"
 			},
-
 			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
 				"title": "Express.js"
