@@ -108,18 +108,26 @@
 		"youtubeLink": "https://www.youtube.com/embed/VRgmvnCCzbQ"
 	},
 	{
-		"name": "Handwriting Hiragana Quiz",
-		"id": "handwriting-hiragana-quiz",
+		"name": "Language Learner",
+		"id": "language-learner",
 		"description": [
-			"This web app that uses a self-made deep learning model to recognize handwritten Hiragana (Japanese characters). The model was trained on a large dataset containing Hiragana characters. The app is built using React on the client and Python with FastApi on the server.",
-			"This application is a quiz, meaning that the user can choose between different Hiragana characters and write them down. The model will then predict the character and return the result to the user.",
-			"This project was inspired by my interest for the Japanese language and the Japanese culture (anime, manga, ...). I wanted to create something that would help me learn the Hiragana characters and I thought that creating a quiz would be a fun way to do it.",
-			"This project is also live on Hugging Face Spaces. You can check it out by clicking the demo link below."
+			"The Japanese Learner Web App is a comprehensive platform for anyone looking to learn Japanese in a fun and effective way. The app is built using HTMX (not to be confused with HTML), Tailwind, and Python with FastApi on the server.",
+			"Users can interact with AI-driven profiles in Japanese, practice handwriting for all three Japanese scripts, and explore a range of lessons and quizzes to build their reading, writing, listening, and speaking skills.",
+			"I already made a project that allowed to draw hiragana characters and an AI model that could read them, but that was too simple. I wanted to create something more complex and interesting with plenty of fun features.",
+			"You can check it out by clicking the demo link below or visiting the project on Github."
 		],
 		"developmentStack": [
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-				"title": "React"
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+				"title": "HTMX"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+				"title": "Javascript"
+			},
+			{
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+				"title": "Tailwindcss"
 			},
 			{
 				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
@@ -134,14 +142,13 @@
 				"title": "Tensorflow"
 			},
 			{
-				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
-				"title": "Pytorch"
+				"src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+				"title": "Docker"
 			}
 		],
-		"imageSrc": "/assets/projects/handwriting-hiragana-quiz.png",
-		"githubLink": "https://github.com/Detopall/handwriting-hiragana",
-		"demoLink": "https://huggingface.co/spaces/DenisT/hiragana-handwriting-app",
-		"youtubeLink": "https://www.youtube.com/embed/jw1jFJ9OHUs"
+		"imageSrc": "/assets/projects/language-learner.png",
+		"githubLink": "https://github.com/Detopall/language-learner",
+		"youtubeLink": "https://www.youtube.com/embed/BiyRJrmX5kI"
 	},
 	{
 		"name": "TrackSplitter",
