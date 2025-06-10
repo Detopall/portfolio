@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Card, CardBody, CardFooter } from "@heroui/card";
 import { Button } from "@heroui/button";
-import GithubStarsComponent  from "./GithubStarsComponent";
+import GithubStarsComponent from "./GithubStarsComponent";
+import HuggingFaceComponent from "./HuggingFaceComponent";
 import {
 	Modal,
 	ModalContent,
@@ -59,6 +60,11 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 							</h4>
 						)}
 						<GithubStarsComponent repoUrl={project.githubLink} />
+						{
+							project.demoLink && (
+
+								<HuggingFaceComponent demoLink={project.demoLink} />)
+						}
 					</div>
 
 					<div className="flex mt-2 space-x-2">
@@ -85,7 +91,14 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 								<h3 className="text-3xl font-extrabold text-primary-600 bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">
 									{project.name}
 								</h3>
-								<GithubStarsComponent repoUrl={project.githubLink} />
+								<div className="flex flex-row gap-5 space-x-2">
+									<GithubStarsComponent repoUrl={project.githubLink} />
+									{
+										project.demoLink && (
+											<HuggingFaceComponent demoLink={project.demoLink} />
+										)
+									}
+								</div>
 							</ModalHeader>
 							<ModalBody className="overflow-y-auto">
 								<div className="flex flex-col items-center">
