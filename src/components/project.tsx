@@ -59,12 +59,14 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 								{project.name}
 							</h4>
 						)}
-						<GithubStarsComponent repoUrl={project.githubLink} />
-						{
-							project.demoLink && (
+						<div className="flex flex-row gap-5">
+							<GithubStarsComponent repoUrl={project.githubLink} />
+							{
+								project.demoLink && (
 
-								<HuggingFaceComponent demoLink={project.demoLink} />)
-						}
+									<HuggingFaceComponent demoLink={project.demoLink} />)
+							}
+						</div>
 					</div>
 
 					<div className="flex mt-2 space-x-2">
