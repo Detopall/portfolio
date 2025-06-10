@@ -45,10 +45,10 @@
 		"name": "Manga Translator",
 		"id": "manga-translator",
 		"description": [
-			"I love reading manga, and I can't wait for the next chapter of my favorite manga to be released. However, the newest chapters are usually in Japanese, and they are translated to English after some time. I want to read the newest chapters as soon as possible, so I decided to build a manga translator that can translate Japanese manga to English.",
+			"I love reading manga, and I can't wait for the next chapter of my favorite manga to be released. However, the newest chapters are usually in Japanese, and they are translated to English after some time. I want to read the newest chapters as soon as possible, so I decided to build a manga translator that can translate Japanese manga to English (additional language have recently been added).",
 			"I want to translate the text in the manga images from Japanese to English. I will first need to know where these speech bubbles are on the image. For this I will use Yolov8 to detect the speech bubbles. Once I have the speech bubbles, I will use manga-ocr to extract the text from the speech bubbles. Finally, I will use deep-translator to translate the text from Japanese to English.",
 			"This project was inspired by my interest for manga. I wanted to create something that had a personal reason behind it, but that could also be useful for other people. I thought that creating a manga translator would be a fun project to work on.",
-			"This project is also live on Hugging Face Spaces. You can check it out by clicking the demo link below."
+			"This project is also live on Hugging Face Spaces, which regularly get around 450 viewers per month. You can check it out by clicking the demo link below."
 		],
 		"developmentStack": [
 			{
