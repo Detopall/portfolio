@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Card, CardBody, CardFooter } from "@heroui/card";
+import { useState, useRef, useEffect } from "react";
+import { Card, CardBody } from "@heroui/card";
 import { Button } from "@heroui/button";
 import GithubStarsComponent from "./GithubStarsComponent";
 import HuggingFaceComponent from "./HuggingFaceComponent";
@@ -27,57 +27,162 @@ interface Project {
 	githubLink: string;
 }
 
-function Project({ project, theme }: { project: Project; theme: string }) {
+function Project({ project }: { project: Project; theme: string }) {
 	const [isOpen, setIsOpen] = useState(false);
+	const containerRef = useRef<HTMLDivElement | null>(null);
+	const cardInnerRef = useRef<HTMLDivElement | null>(null);
+	const flareRef = useRef<HTMLDivElement | null>(null);
 
 	const handleOpen = () => setIsOpen(true);
 	const handleClose = () => setIsOpen(false);
 
+	useEffect(() => {
+		const container = containerRef.current;
+		const cardInner = cardInnerRef.current;
+		const flare = flareRef.current;
+		if (!container || !cardInner || !flare) return;
+
+		const maxTilt = 25;
+
+		const handleMouseMove = (e: MouseEvent) => {
+			const rect = container.getBoundingClientRect();
+			const x = e.clientX - rect.left;
+			const y = e.clientY - rect.top;
+
+			const normX = x / rect.width;
+			const normY = y / rect.height;
+
+			const tiltX = (normY - 0.5) * maxTilt;
+			const tiltY = -(normX - 0.5) * maxTilt;
+
+			cardInner.style.transform = `rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(1.05,1.05,1.05)`;
+
+			flare.style.opacity = "1";
+			flare.style.left = `${x}px`;
+			flare.style.top = `${y}px`;
+		};
+
+		const handleMouseLeave = () => {
+			cardInner.style.transform = "";
+			flare.style.opacity = "0";
+		};
+
+		container.addEventListener("mousemove", handleMouseMove);
+		container.addEventListener("mouseleave", handleMouseLeave);
+
+		return () => {
+			container.removeEventListener("mousemove", handleMouseMove);
+			container.removeEventListener("mouseleave", handleMouseLeave);
+		};
+	}, []);
+
 	return (
 		<>
-			<Card
-				isPressable
-				isFooterBlurred
-				onPress={handleOpen}
-				className="relative bg-gradient-to-br transition-all duration-300 h-[300px] overflow-hidden hover:scale-105"
+			{/* fixed-size perspective container */}
+			<div
+				ref={containerRef}
+				className="relative"
+				style={{
+					perspective: "1000px",
+					width: "320px",
+					height: "400px",
+					minWidth: "320px",
+					minHeight: "400px",
+				}}
 			>
-				<CardBody className="p-0 overflow-hidden flex">
-					<Image
-						src={project.imageSrc}
-						alt={project.name}
-						className="w-full h-full object-cover"
-					/>
-				</CardBody>
-				<CardFooter className="absolute bottom-0 w-full bg-white/10 border border-white/20 py-2 px-3 rounded-b-lg flex flex-col items-start justify-between z-10">
-					<div className="flex justify-between items-center w-full">
-						{theme === "dark" ? (
-							<h4 className="[text-shadow:0px_0px_5px_rgba(0,0,0,0.9)] text-600 text-xl md:text-2xl font-extrabold">
-								{project.name}
-							</h4>
-						) : (
-							<h4 className="[text-shadow:0_0_5px_rgba(255,255,255,0.9)] text-600 text-xl md:text-2xl font-extrabold">
-								{project.name}
-							</h4>
-						)}
-						<div className="flex flex-row gap-5">
-							<GithubStarsComponent repoUrl={project.githubLink} />
-							{
-								project.demoLink && (
+				{/* tilt wrapper */}
+				<div
+					ref={cardInnerRef}
+					className="relative h-full"
+					style={{
+						transformStyle: "preserve-3d",
+						transition: "transform 0.23s cubic-bezier(.22,.7,.56,1.03)",
+					}}
+				>
+					<Card
+						isPressable
+						onPress={handleOpen}
+						className="relative rounded-xl shadow-lg overflow-hidden h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-400"
+						style={{
+							width: "100%",
+							height: "100%",
+							backgroundImage: `url(${project.imageSrc})`,
+							backgroundSize: "cover",
+							backgroundPosition: "center",
+							backgroundRepeat: "no-repeat",
+							position: "relative",
+						}}
+					>
+						<div className="absolute inset-0 bg-black/30 pointer-events-none rounded-xl"></div>
 
-									<HuggingFaceComponent demoLink={project.demoLink} />)
-							}
+						<div
+							aria-hidden="true"
+							className="absolute inset-0 pointer-events-none"
+							style={{
+								overflow: "hidden",
+							}}
+						>
+							<div
+								className="absolute top-0 left-[-120%] h-full w-1/2 transform rotate-12 bg-white/20 blur-xl"
+								style={{
+									animation: "glint 2.5s ease-in-out infinite",
+									mixBlendMode: "screen",
+								}}
+							/>
 						</div>
-					</div>
 
-					<div className="flex mt-2 space-x-2">
-						{project.developmentStack.map((tech, index) => (
-							<Tooltip key={index} content={tech.title}>
-								<Image src={tech.src} alt={tech.title} className="w-10 h-10" />
-							</Tooltip>
-						))}
-					</div>
-				</CardFooter>
-			</Card>
+						<CardBody className="p-6 flex flex-col items-center gap-4 relative z-10 h-full">
+							<h4 className="text-xl font-bold text-center leading-tight px-2 w-full">
+								<span className="text-white px-3 py-1 inline-block" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.35)" }}>
+									{project.name}
+								</span>
+							</h4>
+
+							<div className="flex flex-wrap gap-2 justify-center mt-auto">
+								{project.developmentStack.map((tech, index) => (
+									<Tooltip key={index} content={tech.title}>
+										<div className="bg-white/90 p-2 shadow-sm rounded-lg flex items-center justify-center">
+											<Image
+												src={tech.src}
+												alt={tech.title}
+												className="w-8 h-8"
+												style={{ borderRadius: 0 }}
+											/>
+										</div>
+									</Tooltip>
+								))}
+							</div>
+
+							<div className="flex flex-row gap-3 justify-center">
+								<GithubStarsComponent repoUrl={project.githubLink} />
+								{project.demoLink && (
+									<HuggingFaceComponent demoLink={project.demoLink} />
+								)}
+							</div>
+						</CardBody>
+					</Card>
+				</div>
+
+				{/* cursor flare */}
+				<div
+					ref={flareRef as any}
+					className="pointer-events-none absolute rounded-full mix-blend-screen will-change-transform"
+					style={{
+						width: "250px",
+						height: "250px",
+						background:
+							"radial-gradient(circle, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 70%)",
+						filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.6))",
+						transform: "translate(-50%, -50%)",
+						opacity: 0,
+						transition: "opacity 0.5s ease",
+						zIndex: 10,
+						top: 0,
+						left: 0,
+						borderRadius: "50%",
+					}}
+				></div>
+			</div>
 
 			<Modal
 				isOpen={isOpen}
@@ -95,11 +200,9 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 								</h3>
 								<div className="flex flex-row gap-5 space-x-2">
 									<GithubStarsComponent repoUrl={project.githubLink} />
-									{
-										project.demoLink && (
-											<HuggingFaceComponent demoLink={project.demoLink} />
-										)
-									}
+									{project.demoLink && (
+										<HuggingFaceComponent demoLink={project.demoLink} />
+									)}
 								</div>
 							</ModalHeader>
 							<ModalBody className="overflow-y-auto">
@@ -180,8 +283,10 @@ function Project({ project, theme }: { project: Project; theme: string }) {
 					)}
 				</ModalContent>
 			</Modal>
+
 		</>
 	);
 }
 
 export default Project;
+
