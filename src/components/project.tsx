@@ -340,7 +340,7 @@ function Project({ project }: { project: Project; theme: string }) {
 				</ModalContent>
 			</Modal>
 
-			<style jsx>{`
+			<style>{`
 				@keyframes glint {
 					0% {
 						left: -120%;
