@@ -29,6 +29,7 @@ interface Project {
 
 function Project({ project }: { project: Project; theme: string }) {
 	const [isOpen, setIsOpen] = useState(false);
+	const [isHovered, setIsHovered] = useState(false);
 	const containerRef = useRef<HTMLDivElement | null>(null);
 	const cardInnerRef = useRef<HTMLDivElement | null>(null);
 	const flareRef = useRef<HTMLDivElement | null>(null);
@@ -57,21 +58,28 @@ function Project({ project }: { project: Project; theme: string }) {
 
 			cardInner.style.transform = `rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(1.05,1.05,1.05)`;
 
-			flare.style.opacity = "1";
+			flare.style.opacity = "0.6";
 			flare.style.left = `${x}px`;
 			flare.style.top = `${y}px`;
 		};
 
+		const handleMouseEnter = () => {
+			setIsHovered(true);
+		};
+
 		const handleMouseLeave = () => {
+			setIsHovered(false);
 			cardInner.style.transform = "";
 			flare.style.opacity = "0";
 		};
 
 		container.addEventListener("mousemove", handleMouseMove);
+		container.addEventListener("mouseenter", handleMouseEnter);
 		container.addEventListener("mouseleave", handleMouseLeave);
 
 		return () => {
 			container.removeEventListener("mousemove", handleMouseMove);
+			container.removeEventListener("mouseenter", handleMouseEnter);
 			container.removeEventListener("mouseleave", handleMouseLeave);
 		};
 	}, []);
@@ -99,21 +107,51 @@ function Project({ project }: { project: Project; theme: string }) {
 						transition: "transform 0.23s cubic-bezier(.22,.7,.56,1.03)",
 					}}
 				>
+					{/* Card border/frame */}
+					<div
+						className={`absolute inset-0 rounded-xl transition-all duration-300 ${isHovered
+							? 'bg-gradient-to-br from-white via-gray-200 to-gray-300 shadow-2xl'
+							: 'bg-transparent'
+							}`}
+						style={{
+							transform: isHovered ? 'translateZ(-8px)' : 'translateZ(0px)',
+						}}
+					/>
+
+					{/* Inner card border */}
+					<div
+						className={`absolute inset-1 rounded-lg transition-all duration-300 ${isHovered
+							? 'bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 shadow-inner'
+							: 'bg-transparent'
+							}`}
+						style={{
+							transform: isHovered ? 'translateZ(-4px)' : 'translateZ(0px)',
+						}}
+					/>
+
 					<Card
 						isPressable
 						onPress={handleOpen}
-						className="relative rounded-xl shadow-lg overflow-hidden h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-400"
+						className={`relative rounded-lg shadow-lg overflow-hidden h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-400 transition-all duration-300 ${isHovered ? 'inset-2' : 'inset-0'
+							}`}
 						style={{
-							width: "100%",
-							height: "100%",
+							width: isHovered ? 'calc(100% - 16px)' : '100%',
+							height: isHovered ? 'calc(100% - 16px)' : '100%',
+							margin: isHovered ? '8px' : '0px',
 							backgroundImage: `url(${project.imageSrc})`,
 							backgroundSize: "cover",
 							backgroundPosition: "center",
 							backgroundRepeat: "no-repeat",
 							position: "relative",
+							filter: isHovered ? 'grayscale(0%) saturate(1.2) brightness(1.1)' : 'grayscale(100%) brightness(0.8)',
+							transform: isHovered ? 'translateZ(8px)' : 'translateZ(0px)',
 						}}
 					>
-						<div className="absolute inset-0 bg-black/30 pointer-events-none rounded-xl"></div>
+						<div
+							className={`absolute inset-0 pointer-events-none transition-all duration-300 ${isHovered ? 'bg-black/20' : 'bg-black/50'
+								}`}
+							style={{ borderRadius: '8px' }}
+						></div>
 
 						<div
 							aria-hidden="true"
@@ -123,17 +161,27 @@ function Project({ project }: { project: Project; theme: string }) {
 							}}
 						>
 							<div
-								className="absolute top-0 left-[-120%] h-full w-1/2 transform rotate-12 bg-white/20 blur-xl"
+								className="absolute top-0 left-[-120%] h-full w-1/2 transform rotate-12 bg-white/30 blur-xl"
 								style={{
-									animation: "glint 2.5s ease-in-out infinite",
+									animation: isHovered ? "glint 2.5s ease-in-out infinite" : "none",
 									mixBlendMode: "screen",
+									opacity: isHovered ? 1 : 0,
+									transition: "opacity 0.3s ease",
 								}}
 							/>
 						</div>
 
 						<CardBody className="p-6 flex flex-col items-center gap-4 relative z-10 h-full">
 							<h4 className="text-xl font-bold text-center leading-tight px-2 w-full">
-								<span className="text-white px-3 py-1 inline-block" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.35)" }}>
+								<span
+									className={`px-3 py-1 inline-block transition-all duration-300 ${isHovered ? 'text-white' : 'text-gray-300'
+										}`}
+									style={{
+										textShadow: isHovered
+											? "0 2px 8px rgba(0,0,0,0.6)"
+											: "0 1px 4px rgba(0,0,0,0.8)"
+									}}
+								>
 									{project.name}
 								</span>
 							</h4>
@@ -141,7 +189,15 @@ function Project({ project }: { project: Project; theme: string }) {
 							<div className="flex flex-wrap gap-2 justify-center mt-auto">
 								{project.developmentStack.map((tech, index) => (
 									<Tooltip key={index} content={tech.title}>
-										<div className="bg-white/90 p-2 shadow-sm rounded-lg flex items-center justify-center">
+										<div
+											className={`p-2 shadow-sm rounded-lg flex items-center justify-center transition-all duration-300 ${isHovered
+												? 'bg-white/95 shadow-md'
+												: 'bg-white/70 shadow-sm'
+												}`}
+											style={{
+												filter: isHovered ? 'grayscale(0%)' : 'grayscale(100%)',
+											}}
+										>
 											<Image
 												src={tech.src}
 												alt={tech.title}
@@ -168,15 +224,15 @@ function Project({ project }: { project: Project; theme: string }) {
 					ref={flareRef as any}
 					className="pointer-events-none absolute rounded-full mix-blend-screen will-change-transform"
 					style={{
-						width: "250px",
-						height: "250px",
+						width: "200px",
+						height: "200px",
 						background:
-							"radial-gradient(circle, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 70%)",
-						filter: "drop-shadow(0 0 8px rgba(255, 255, 255, 0.6))",
+							"radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.3) 40%, rgba(255,255,255,0) 70%)",
+						filter: "blur(2px)",
 						transform: "translate(-50%, -50%)",
 						opacity: 0,
-						transition: "opacity 0.5s ease",
-						zIndex: 10,
+						transition: "opacity 0.3s ease",
+						zIndex: 20,
 						top: 0,
 						left: 0,
 						borderRadius: "50%",
@@ -284,9 +340,18 @@ function Project({ project }: { project: Project; theme: string }) {
 				</ModalContent>
 			</Modal>
 
+			<style jsx>{`
+				@keyframes glint {
+					0% {
+						left: -120%;
+					}
+					100% {
+						left: 120%;
+					}
+				}
+			`}</style>
 		</>
 	);
 }
 
 export default Project;
-
