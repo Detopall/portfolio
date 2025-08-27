@@ -1,7 +1,6 @@
 import { Image } from "@heroui/image";
 import { Tooltip } from "@heroui/tooltip";
 import { Card, CardBody } from "@heroui/card";
-import { Chip } from "@heroui/chip";
 import technologiesData from "../experience-data.json";
 import { title } from "@/components/primitives";
 
