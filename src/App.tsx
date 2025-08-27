@@ -3,7 +3,7 @@ import { useTheme } from "@/hooks/use-theme";
 import Hero from "@/pages/hero";
 import Experience from "@/pages/experience";
 import Projects from "@/pages/projects";
-import About from "@/pages/about";
+import Contact from "@/pages/contact";
 import { Switch } from "@heroui/switch";
 
 import { MoonIcon, SunIcon } from "@/components/moonSunIcons";
@@ -25,8 +25,8 @@ function App() {
 				</div>
 				<Hero />
 				<Experience />
-				<Projects theme={theme}/>
-				<About />
+				<Projects theme={theme} />
+				<Contact />
 			</main>
 		</>
 	);
