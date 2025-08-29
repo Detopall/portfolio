@@ -27,7 +27,7 @@ interface Project {
 	githubLink: string;
 }
 
-function Project({ project }: { project: Project; theme: string }) {
+function Project({ project }: { project: Project }) {
 	const [isOpen, setIsOpen] = useState(false);
 	const [isHovered, setIsHovered] = useState(false);
 	const containerRef = useRef<HTMLDivElement | null>(null);

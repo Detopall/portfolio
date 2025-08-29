@@ -25,7 +25,7 @@ function App() {
 				</div>
 				<Hero />
 				<Experience />
-				<Projects theme={theme} />
+				<Projects />
 				<Contact />
 			</main>
 		</>
