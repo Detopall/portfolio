@@ -15,7 +15,7 @@ function hero() {
 							underline: true,
 						})}
 					>
-						Data Scientist
+						Computer Science Student
 					</span>
 				</div>
 				<div className="flex items-center justify-center md:w-1/2 mt-6 md:mt-0">

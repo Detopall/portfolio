@@ -35,6 +35,10 @@
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
 		},
 		{
+			"name": "Flutter",
+			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+		},
+		{
 			"name": "React",
 			"image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
 		},
