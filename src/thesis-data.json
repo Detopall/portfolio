@@ -1,0 +1,82 @@
+[
+	{
+		"id": "bachelor-thesis",
+		"title": "Analysis of Feature Extraction from Protein Sequences",
+		"subtitle": "How can we extract the most useful features from a protein sequence?",
+		"description": [
+			"This bachelor dissertation explores the process of extracting meaningful features from raw protein sequences, building an end-to-end pipeline for protein feature extraction.",
+			"The research investigates which feature extraction methods yield the most informative and discriminative representations for downstream machine learning tasks, comparing classical biochemical descriptors with modern embedding approaches."
+		],
+		"type": "bachelor",
+		"date": "June 2024",
+		"institution": "University of Applied Sciences Howest",
+		"academicYear": "2023 - 2024",
+		"program": "Bachelor Applied Computer Science",
+		"supervisors": [
+			"dr. ir. Pieter Coussement (ML6) — External Promotor",
+			"Frédéric Vlummens (Howest) — Internal Promotor"
+		],
+		"tags": [
+			"Machine Learning",
+			"Bioinformatics",
+			"Python",
+			"Feature Extraction",
+			"Protein Sequences"
+		],
+		"pdfUrl": "https://raw.githubusercontent.com/Detopall/Papers/main/DenisTopallajBAP.pdf",
+		"githubLink": "https://github.com/Detopall/bachelor-thesis-protein-feature-extraction",
+		"imageSrc": "/assets/protein-sequences-ai.png",
+		"pageCount": 49,
+		"abstract": "This dissertation analyses feature extraction techniques applied to protein sequences, constructing a pipeline that benchmarks multiple approaches. The central research question asks which features are most useful for downstream predictive modelling, examining classical physicochemical descriptors alongside modern sequence-embedding strategies."
+	},
+	{
+		"id": "bridging-program-report",
+		"title": "Generative Scene Generation",
+		"subtitle": "How does the geometric consistency of AI-generated videos affect the quality of 3D scene reconstruction using Gaussian Splatting?",
+		"description": [
+			"This paper, produced for the course 'Individual Project' during the bridging program at UHasselt, investigates the relationship between the geometric coherence of AI-generated video and the fidelity of 3D scenes reconstructed via Gaussian Splatting.",
+			"The study builds a full pipeline from text/image-to-video generation through COLMAP-based structure-from-motion to 3DGS rendering, evaluating how geometric artifacts in synthetic footage propagate into the final 3D reconstruction."
+		],
+		"type": "bridging",
+		"date": "2025 - 2026",
+		"institution": "UHasselt",
+		"academicYear": "2025 - 2026",
+		"program": "Bridging Program — Master of Computer Science",
+		"supervisors": [
+			"Joren Michels",
+			"Lode Jorissen",
+			"Nick Michiels"
+		],
+		"tags": [
+			"Gaussian Splatting",
+			"3D Reconstruction",
+			"Generative AI",
+			"Computer Vision",
+			"NeRF"
+		],
+		"pdfUrl": "https://raw.githubusercontent.com/Detopall/Papers/main/Individual_Project.pdf",
+		"githubLink": "https://github.com/Detopall/individual-project-generative-scene-generation",
+		"imageSrc": "/assets/gaussian-splatting.png",
+		"pageCount": 11,
+		"abstract": "This study examines how geometric consistency in AI-generated videos impacts the quality of 3D scene reconstruction via Gaussian Splatting. A pipeline is constructed from video generation through structure-from-motion to 3DGS rendering, revealing the degree to which synthetic geometric artifacts degrade or distort the resulting 3D scenes."
+	},
+	{
+		"id": "master-thesis",
+		"title": "Master Thesis",
+		"subtitle": "Coming soon",
+		"description": [],
+		"type": "master",
+		"hidden": true,
+		"date": "",
+		"institution": "UHasselt",
+		"academicYear": "",
+		"program": "Master of Computer Science",
+		"supervisors": [],
+		"tags": [],
+		"pdfUrl": "",
+		"githubLink": "",
+		"imageSrc": "",
+		"pageCount": 0,
+		"abstract": ""
+	}
+]

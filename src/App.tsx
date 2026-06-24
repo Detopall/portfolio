@@ -3,6 +3,7 @@ import { useTheme } from "@/hooks/use-theme";
 import Hero from "@/pages/hero";
 import Experience from "@/pages/experience";
 import Projects from "@/pages/projects";
+import Theses from "@/pages/theses";
 import Contact from "@/pages/contact";
 import { Switch } from "@heroui/switch";
 
@@ -26,6 +27,7 @@ function App() {
 				<Hero />
 				<Experience />
 				<Projects />
+				<Theses />
 				<Contact />
 			</main>
 		</>

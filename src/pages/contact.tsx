@@ -25,6 +25,14 @@ type ButtonColor =
 	| "warning"
 	| undefined;
 
+type SocialLink = {
+	icon: JSX.Element;
+	label: string;
+	color?: ButtonColor;
+	customClass?: string;
+	url: string;
+};
+
 function contact() {
 	const [copied, setCopied] = useState(false);
 
@@ -43,16 +51,11 @@ function contact() {
 		setTimeout(() => setCopied(false), 2000);
 	};
 
-	const socialLinks: {
-		icon: JSX.Element;
-		label: string;
-		color: ButtonColor;
-		url: string;
-	}[] = [
+	const socialLinks: SocialLink[] = [
 		{
 			icon: <FaLinkedin />,
 			label: "LinkedIn",
-			color: "primary",
+			customClass: "border-sky-400 text-sky-400 hover:bg-sky-400 hover:text-white px-5 py-5",
 			url: "https://www.linkedin.com/in/denis-topallaj/",
 		},
 		{
@@ -73,7 +76,7 @@ function contact() {
 					Feel free to reach out — I&apos;d love to connect!
 				</p>
 
-				<div className="flex flex-col items-center gap-4 w-full max-w-md">
+				<div className="flex flex-col items-center gap-4 w-fit">
 					<Button
 						color={copied ? "success" : "danger"}
 						startContent={<FaMailBulk />}
@@ -88,13 +91,13 @@ function contact() {
 					</Button>
 
 					<div className="flex gap-3 flex-wrap justify-center">
-						{socialLinks.map(({ icon, label, color, url }) => (
+						{socialLinks.map(({ icon, label, color, customClass, url }) => (
 							<Link key={label} href={url} isExternal>
 								<Button
-									color={color}
+									{...(color ? { color } : {})}
 									startContent={icon}
 									variant="ghost"
-									className="px-5 py-5"
+									className={customClass ?? "px-5 py-5"}
 								>
 									{label}
 								</Button>
